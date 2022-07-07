@@ -24,7 +24,7 @@
 </ul>
 
 <h2>Rewards Breakdown</h2>
-<h3>Block: 2-&infin;</hr>
+<h3>Block: 2-&infin;</h3>
 <ul>
   <li>Reward in a Single Block: 888</li>
   <li>Treasury: 88.80 (10%)</li>
