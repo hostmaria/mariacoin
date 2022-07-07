@@ -32,7 +32,14 @@
 
 <h3>Maria Exchange.</h3>
 
-<p>...</p>
+<p>Main directions of the Exchange:</p>
+  <ol>
+    <li>BTC lightning integration.</li>
+    <li>Whitelabel functionality.</li>
+    <li>Will list all the coins that are accepted using "Maria Payments" gateway.</li>
+    <li>Trading other cryptocurrencies against Maria coin = 0 fees.</li>
+  </ol>
+<h2>..</h2>  
 <p>Maria Exchange development will be funded by the Treasury only.</p>
 
 <h2>..</h2>
