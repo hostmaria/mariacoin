@@ -32,4 +32,4 @@
   <li>Staker Reward: 300</li>
 </ul>
 
-
+<p>.. to be organised..</p>
