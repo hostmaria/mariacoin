@@ -6,6 +6,7 @@
 <li>Premine: 8,888,888</li>
 <li>Block Time: 60 Seconds</li>
 <li>Maturity: 100 Confirmations</li>
+<li>MN Collateral: 100,000</li>
 <li>Prefix: Maria addresses start with the capital letter "M"</li>
 <li>Ports:</li>
 </ul>
@@ -21,15 +22,15 @@
   <li>Block Height: 1</li>
   <li>Reward Amount: 8,888,888 MARI	Initial pre-mine</li>
 </ul>
-  
+
 <h2>Rewards Breakdown</h2>
-<h3>Block: 2-&infin;</h3>
+<h3>Block: 2-&infin;</hr>
 <ul>
-  <li>MN Collateral: 100,000</li>
-  <li>Block Reward: 888</li>
-  <li>Treasury: 88</li>
-  <li>MN Reward: 500</li>
-  <li>Staker Reward: 300</li>
+  <li>Reward in a Single Block: 888</li>
+  <li>Treasury: 88.80 (10%)</li>
+  <li>MN Reward: 532.8 (60%)</li>
+  <li>Staker Reward: 266.4 (30%)</li>
 </ul>
+
 
 <p>.. to be organised..</p>
