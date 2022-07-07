@@ -10,9 +10,9 @@
 
 <h3>Treasury</h3>
 <p>The idea is based on the DASH Treasury.</p>
-<p>Every new block, apart from the awards to 1 MN holder and 1 Staker, will also contain 88 Maria Coins that will go directly to the Treasury.</p>
+<p>Every new block, apart from the awards to 1 MN holder and 1 Staker, will also contain 88.8 Maria Coins that are intended for the Treasury. The coins will be paid out to the Treasury every 4300 blocks (to be confirmed).</p>
 <p>Treasury funds will be spent as follows: 50% on development and 50% on marketing only.</p>
-<p>The main mission of Marketing: More people create Maria Coin wallets and play with receiving/sending Maria Coin.</p>
+<p>The main mission of Marketing is to reach more people who create Maria Coin wallets and play with receiving/sending Maria Coin. Another major target of the marketing goals are: getting Maria Coin listed in as many exchanges as possible.</p>
 
 <hr>
 
