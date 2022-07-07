@@ -25,7 +25,7 @@
 <h2>Rewards Breakdown</h2>
 <h3>Block: 2-&infin;</h3>
 <ul>
-  <li>Collateral: 100,000</li>
+  <li>MN Collateral: 100,000</li>
   <li>Block Reward: 888</li>
   <li>Treasury: 88</li>
   <li>MN Reward: 500</li>
