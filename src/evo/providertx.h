@@ -1,9 +1,9 @@
 // Copyright (c) 2018-2021 The Dash Core developers
-// Copyright (c) 2021 The PIVX Core developers
+// Copyright (c) 2021 The MARIA Core developers
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_PROVIDERTX_H
-#define PIVX_PROVIDERTX_H
+#ifndef MARIA_PROVIDERTX_H
+#define MARIA_PROVIDERTX_H
 
 #include "bls/bls_wrapper.h"
 #include "primitives/transaction.h"
@@ -171,4 +171,4 @@ bool CheckProUpRevTx(const CTransaction& tx, const CBlockIndex* pindexPrev, CVal
 bool GetProRegCollateral(const CTransactionRef& tx, COutPoint& outRet);
 
 
-#endif  //PIVX_PROVIDERTX_H
+#endif  //MARIA_PROVIDERTX_H

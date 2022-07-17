@@ -1,10 +1,10 @@
 // Copyright (c) 2018-2021 The Dash Core developers
-// Copyright (c) 2021 The PIVX Core developers
+// Copyright (c) 2021 The MARIA Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_EVODB_H
-#define PIVX_EVODB_H
+#ifndef MARIA_EVODB_H
+#define MARIA_EVODB_H
 
 #include "dbwrapper.h"
 #include "sync.h"
@@ -110,4 +110,4 @@ private:
 
 extern std::unique_ptr<CEvoDB> evoDb;
 
-#endif//PIVX_EVODB_H
+#endif//MARIA_EVODB_H

@@ -1,10 +1,10 @@
 // Copyright (c) 2018 The Dash Core developers
-// Copyright (c) 2021 The PIVX Core developers
+// Copyright (c) 2021 The MARIA Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_CRYPTO_BLS_H
-#define PIVX_CRYPTO_BLS_H
+#ifndef MARIA_CRYPTO_BLS_H
+#define MARIA_CRYPTO_BLS_H
 
 #include "hash.h"
 #include "serialize.h"
@@ -432,4 +432,4 @@ typedef std::shared_ptr<BLSSignatureVector> BLSSignatureVectorPtr;
 
 bool BLSInit();
 
-#endif // PIVX_CRYPTO_BLS_H
+#endif // MARIA_CRYPTO_BLS_H

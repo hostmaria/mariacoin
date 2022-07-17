@@ -1,13 +1,13 @@
-// Copyright (c) 2020 The PIVX developers
+// Copyright (c) 2020 The LiquidLabs Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_CONSENSUS_ZEROCOIN_VERIFY_H
-#define PIVX_CONSENSUS_ZEROCOIN_VERIFY_H
+#ifndef MARIA_CONSENSUS_ZEROCOIN_VERIFY_H
+#define MARIA_CONSENSUS_ZEROCOIN_VERIFY_H
 
 #include "consensus/consensus.h"
 #include "script/interpreter.h"
-#include "zpivchain.h"
+#include "zmarichain.h"
 
 // Fake Serial attack Range
 bool isBlockBetweenFakeSerialAttackRange(int nHeight);
@@ -23,4 +23,4 @@ bool ParseAndValidateZerocoinSpends(const Consensus::Params& consensus,
                                     CValidationState& state,
                                     std::vector<std::pair<CBigNum, uint256>>& vSpendsRet);
 
-#endif //PIVX_CONSENSUS_ZEROCOIN_VERIFY_H
+#endif //MARIA_CONSENSUS_ZEROCOIN_VERIFY_H

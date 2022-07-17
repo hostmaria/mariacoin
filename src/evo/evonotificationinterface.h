@@ -1,4 +1,4 @@
-// Copyright (c) 2021 The PIVX developers
+// Copyright (c) 2021 The LiquidLabs Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

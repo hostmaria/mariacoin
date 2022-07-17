@@ -2,10 +2,10 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-bin_PROGRAMS += qt/pivx-qt
+bin_PROGRAMS += qt/maria-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# pivx qt core #
+# maria qt core #
 include Makefile.qt_locale.include
 
 QT_FORMS_UI = \
@@ -17,59 +17,59 @@ QT_FORMS_UI = \
   qt/forms/intro.ui \
   qt/forms/openuridialog.ui \
   qt/forms/rpcconsole.ui \
-  qt/pivx/forms/loadingdialog.ui \
-  qt/pivx/forms/snackbar.ui \
-  qt/pivx/forms/navmenuwidget.ui \
-  qt/pivx/forms/lockunlock.ui \
-  qt/pivx/forms/expandablebutton.ui \
-  qt/pivx/forms/receivedialog.ui \
-  qt/pivx/forms/balancebubble.ui \
-  qt/pivx/forms/topbar.ui \
-  qt/pivx/forms/txrow.ui \
-  qt/pivx/forms/dashboardwidget.ui \
-  qt/pivx/forms/addresslabelrow.ui \
-  qt/pivx/forms/contactdropdownrow.ui \
-  qt/pivx/forms/mninfodialog.ui \
-  qt/pivx/forms/optionbutton.ui \
-  qt/pivx/forms/masternodewizarddialog.ui \
-  qt/pivx/forms/mnrow.ui \
-  qt/pivx/forms/masternodeswidget.ui \
-  qt/pivx/forms/myaddressrow.ui \
-  qt/pivx/forms/csrow.ui \
-  qt/pivx/forms/sendmemodialog.ui \
-  qt/pivx/forms/sendchangeaddressdialog.ui \
-  qt/pivx/forms/sendconfirmdialog.ui \
-  qt/pivx/forms/sendcustomfeedialog.ui \
-  qt/pivx/forms/sendmultirow.ui \
-  qt/pivx/forms/send.ui \
-  qt/pivx/forms/addnewaddressdialog.ui \
-  qt/pivx/forms/addnewcontactdialog.ui \
-  qt/pivx/forms/requestdialog.ui \
-  qt/pivx/forms/receivewidget.ui \
-  qt/pivx/forms/tooltipmenu.ui \
-  qt/pivx/forms/addresseswidget.ui \
-  qt/pivx/forms/defaultdialog.ui \
-  qt/pivx/forms/coldstakingwidget.ui \
-  qt/pivx/forms/proposalcard.ui \
-  qt/pivx/forms/mnselectiondialog.ui \
-  qt/pivx/forms/votedialog.ui \
-  qt/pivx/forms/createproposaldialog.ui \
-  qt/pivx/forms/proposalinfodialog.ui \
-  qt/pivx/forms/governancewidget.ui \
-  qt/pivx/settings/forms/settingsbackupwallet.ui \
-  qt/pivx/settings/forms/settingsexportcsv.ui \
-  qt/pivx/settings/forms/settingsbittoolwidget.ui \
-  qt/pivx/settings/forms/settingsconsolewidget.ui \
-  qt/pivx/settings/forms/settingsdisplayoptionswidget.ui \
-  qt/pivx/settings/forms/settingsfaqwidget.ui \
-  qt/pivx/settings/forms/settingsinformationwidget.ui \
-  qt/pivx/settings/forms/settingsmainoptionswidget.ui \
-  qt/pivx/settings/forms/settingssignmessagewidgets.ui \
-  qt/pivx/settings/forms/settingswalletoptionswidget.ui \
-  qt/pivx/settings/forms/settingswalletrepairwidget.ui \
-  qt/pivx/settings/forms/settingswidget.ui \
-  qt/pivx/forms/welcomecontentwidget.ui \
-  qt/pivx/forms/splash.ui
+  qt/maria/forms/loadingdialog.ui \
+  qt/maria/forms/snackbar.ui \
+  qt/maria/forms/navmenuwidget.ui \
+  qt/maria/forms/lockunlock.ui \
+  qt/maria/forms/expandablebutton.ui \
+  qt/maria/forms/receivedialog.ui \
+  qt/maria/forms/balancebubble.ui \
+  qt/maria/forms/topbar.ui \
+  qt/maria/forms/txrow.ui \
+  qt/maria/forms/dashboardwidget.ui \
+  qt/maria/forms/addresslabelrow.ui \
+  qt/maria/forms/contactdropdownrow.ui \
+  qt/maria/forms/mninfodialog.ui \
+  qt/maria/forms/optionbutton.ui \
+  qt/maria/forms/masternodewizarddialog.ui \
+  qt/maria/forms/mnrow.ui \
+  qt/maria/forms/masternodeswidget.ui \
+  qt/maria/forms/myaddressrow.ui \
+  qt/maria/forms/csrow.ui \
+  qt/maria/forms/sendmemodialog.ui \
+  qt/maria/forms/sendchangeaddressdialog.ui \
+  qt/maria/forms/sendconfirmdialog.ui \
+  qt/maria/forms/sendcustomfeedialog.ui \
+  qt/maria/forms/sendmultirow.ui \
+  qt/maria/forms/send.ui \
+  qt/maria/forms/addnewaddressdialog.ui \
+  qt/maria/forms/addnewcontactdialog.ui \
+  qt/maria/forms/requestdialog.ui \
+  qt/maria/forms/receivewidget.ui \
+  qt/maria/forms/tooltipmenu.ui \
+  qt/maria/forms/addresseswidget.ui \
+  qt/maria/forms/defaultdialog.ui \
+  qt/maria/forms/coldstakingwidget.ui \
+  qt/maria/forms/proposalcard.ui \
+  qt/maria/forms/mnselectiondialog.ui \
+  qt/maria/forms/votedialog.ui \
+  qt/maria/forms/createproposaldialog.ui \
+  qt/maria/forms/proposalinfodialog.ui \
+  qt/maria/forms/governancewidget.ui \
+  qt/maria/settings/forms/settingsbackupwallet.ui \
+  qt/maria/settings/forms/settingsexportcsv.ui \
+  qt/maria/settings/forms/settingsbittoolwidget.ui \
+  qt/maria/settings/forms/settingsconsolewidget.ui \
+  qt/maria/settings/forms/settingsdisplayoptionswidget.ui \
+  qt/maria/settings/forms/settingsfaqwidget.ui \
+  qt/maria/settings/forms/settingsinformationwidget.ui \
+  qt/maria/settings/forms/settingsmainoptionswidget.ui \
+  qt/maria/settings/forms/settingssignmessagewidgets.ui \
+  qt/maria/settings/forms/settingswalletoptionswidget.ui \
+  qt/maria/settings/forms/settingswalletrepairwidget.ui \
+  qt/maria/settings/forms/settingswidget.ui \
+  qt/maria/forms/welcomecontentwidget.ui \
+  qt/maria/forms/splash.ui
 
 QT_MOC_CPP = \
   qt/moc_addressbookpage.cpp \
@@ -77,7 +77,7 @@ QT_MOC_CPP = \
   qt/moc_askpassphrasedialog.cpp \
   qt/moc_bantablemodel.cpp \
   qt/moc_bitcoinaddressvalidator.cpp \
-  qt/pivx/moc_pivxgui.cpp \
+  qt/maria/moc_mariagui.cpp \
   qt/moc_bitcoinunits.cpp \
   qt/moc_clientmodel.cpp \
   qt/moc_coincontroldialog.cpp \
@@ -103,78 +103,78 @@ QT_MOC_CPP = \
   qt/moc_transactiontablemodel.cpp \
   qt/moc_utilitydialog.cpp \
   qt/moc_walletmodel.cpp \
-  qt/pivx/moc_loadingdialog.cpp \
-  qt/pivx/moc_pwidget.cpp \
-  qt/pivx/moc_focuseddialog.cpp \
-  qt/pivx/moc_snackbar.cpp \
-  qt/pivx/moc_navmenuwidget.cpp \
-  qt/pivx/moc_lockunlock.cpp \
-  qt/pivx/moc_expandablebutton.cpp \
-  qt/pivx/moc_furabstractlistitemdelegate.cpp \
-  qt/pivx/moc_receivedialog.cpp \
-  qt/pivx/moc_pfborderimage.cpp \
-  qt/pivx/moc_topbar.cpp \
-  qt/pivx/moc_txrow.cpp \
-  qt/pivx/moc_dashboardwidget.cpp \
-  qt/pivx/moc_addresslabelrow.cpp \
-  qt/pivx/moc_contactdropdownrow.cpp \
-  qt/pivx/moc_mninfodialog.cpp \
-  qt/pivx/moc_optionbutton.cpp \
-  qt/pivx/moc_coldstakingmodel.cpp \
-  qt/pivx/moc_mnmodel.cpp \
-  qt/pivx/moc_masternodewizarddialog.cpp \
-  qt/pivx/moc_mnrow.cpp \
-  qt/pivx/moc_masternodeswidget.cpp \
-  qt/pivx/moc_myaddressrow.cpp \
-  qt/pivx/moc_csrow.cpp \
-  qt/pivx/moc_contactsdropdown.cpp \
-  qt/pivx/moc_sendchangeaddressdialog.cpp \
-  qt/pivx/moc_sendconfirmdialog.cpp \
-  qt/pivx/moc_sendcustomfeedialog.cpp \
-  qt/pivx/moc_sendmemodialog.cpp \
-  qt/pivx/moc_sendmultirow.cpp \
-  qt/pivx/moc_send.cpp \
-  qt/pivx/moc_addnewaddressdialog.cpp \
-  qt/pivx/moc_addnewcontactdialog.cpp \
-  qt/pivx/moc_requestdialog.cpp \
-  qt/pivx/moc_receivewidget.cpp \
-  qt/pivx/moc_tooltipmenu.cpp \
-  qt/pivx/moc_addresseswidget.cpp \
-  qt/pivx/moc_defaultdialog.cpp \
-  qt/pivx/moc_coldstakingwidget.cpp \
-  qt/pivx/moc_proposalcard.cpp \
-  qt/pivx/moc_mnselectiondialog.cpp \
-  qt/pivx/moc_votedialog.cpp \
-  qt/pivx/moc_createproposaldialog.cpp \
-  qt/pivx/moc_proposalinfodialog.cpp \
-  qt/pivx/moc_governancewidget.cpp \
-  qt/pivx/settings/moc_settingsbackupwallet.cpp \
-  qt/pivx/settings/moc_settingsexportcsv.cpp \
-  qt/pivx/settings/moc_settingsbittoolwidget.cpp \
-  qt/pivx/settings/moc_settingsconsolewidget.cpp \
-  qt/pivx/settings/moc_settingsdisplayoptionswidget.cpp \
-  qt/pivx/settings/moc_settingsfaqwidget.cpp \
-  qt/pivx/settings/moc_settingsinformationwidget.cpp \
-  qt/pivx/settings/moc_settingsmainoptionswidget.cpp \
-  qt/pivx/settings/moc_settingssignmessagewidgets.cpp \
-  qt/pivx/settings/moc_settingswalletoptionswidget.cpp \
-  qt/pivx/settings/moc_settingswalletrepairwidget.cpp \
-  qt/pivx/settings/moc_settingswidget.cpp \
-  qt/pivx/moc_welcomecontentwidget.cpp \
-  qt/pivx/moc_splash.cpp
+  qt/maria/moc_loadingdialog.cpp \
+  qt/maria/moc_pwidget.cpp \
+  qt/maria/moc_focuseddialog.cpp \
+  qt/maria/moc_snackbar.cpp \
+  qt/maria/moc_navmenuwidget.cpp \
+  qt/maria/moc_lockunlock.cpp \
+  qt/maria/moc_expandablebutton.cpp \
+  qt/maria/moc_furabstractlistitemdelegate.cpp \
+  qt/maria/moc_receivedialog.cpp \
+  qt/maria/moc_pfborderimage.cpp \
+  qt/maria/moc_topbar.cpp \
+  qt/maria/moc_txrow.cpp \
+  qt/maria/moc_dashboardwidget.cpp \
+  qt/maria/moc_addresslabelrow.cpp \
+  qt/maria/moc_contactdropdownrow.cpp \
+  qt/maria/moc_mninfodialog.cpp \
+  qt/maria/moc_optionbutton.cpp \
+  qt/maria/moc_coldstakingmodel.cpp \
+  qt/maria/moc_mnmodel.cpp \
+  qt/maria/moc_masternodewizarddialog.cpp \
+  qt/maria/moc_mnrow.cpp \
+  qt/maria/moc_masternodeswidget.cpp \
+  qt/maria/moc_myaddressrow.cpp \
+  qt/maria/moc_csrow.cpp \
+  qt/maria/moc_contactsdropdown.cpp \
+  qt/maria/moc_sendchangeaddressdialog.cpp \
+  qt/maria/moc_sendconfirmdialog.cpp \
+  qt/maria/moc_sendcustomfeedialog.cpp \
+  qt/maria/moc_sendmemodialog.cpp \
+  qt/maria/moc_sendmultirow.cpp \
+  qt/maria/moc_send.cpp \
+  qt/maria/moc_addnewaddressdialog.cpp \
+  qt/maria/moc_addnewcontactdialog.cpp \
+  qt/maria/moc_requestdialog.cpp \
+  qt/maria/moc_receivewidget.cpp \
+  qt/maria/moc_tooltipmenu.cpp \
+  qt/maria/moc_addresseswidget.cpp \
+  qt/maria/moc_defaultdialog.cpp \
+  qt/maria/moc_coldstakingwidget.cpp \
+  qt/maria/moc_proposalcard.cpp \
+  qt/maria/moc_mnselectiondialog.cpp \
+  qt/maria/moc_votedialog.cpp \
+  qt/maria/moc_createproposaldialog.cpp \
+  qt/maria/moc_proposalinfodialog.cpp \
+  qt/maria/moc_governancewidget.cpp \
+  qt/maria/settings/moc_settingsbackupwallet.cpp \
+  qt/maria/settings/moc_settingsexportcsv.cpp \
+  qt/maria/settings/moc_settingsbittoolwidget.cpp \
+  qt/maria/settings/moc_settingsconsolewidget.cpp \
+  qt/maria/settings/moc_settingsdisplayoptionswidget.cpp \
+  qt/maria/settings/moc_settingsfaqwidget.cpp \
+  qt/maria/settings/moc_settingsinformationwidget.cpp \
+  qt/maria/settings/moc_settingsmainoptionswidget.cpp \
+  qt/maria/settings/moc_settingssignmessagewidgets.cpp \
+  qt/maria/settings/moc_settingswalletoptionswidget.cpp \
+  qt/maria/settings/moc_settingswalletrepairwidget.cpp \
+  qt/maria/settings/moc_settingswidget.cpp \
+  qt/maria/moc_welcomecontentwidget.cpp \
+  qt/maria/moc_splash.cpp
 
 BITCOIN_MM = \
   qt/macdockiconhandler.mm \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/pivx.moc \
+  qt/maria.moc \
   qt/intro.moc
 
-QT_QRC_CPP = qt/qrc_pivx.cpp
-QT_QRC = qt/pivx.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_pivx_locale.cpp
-QT_QRC_LOCALE = qt/pivx_locale.qrc
+QT_QRC_CPP = qt/qrc_maria.cpp
+QT_QRC = qt/maria.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_maria_locale.cpp
+QT_QRC_LOCALE = qt/maria_locale.qrc
 
 BITCOIN_QT_H = \
   qt/addressbookpage.h \
@@ -182,7 +182,7 @@ BITCOIN_QT_H = \
   qt/askpassphrasedialog.h \
   qt/bantablemodel.h \
   qt/bitcoinaddressvalidator.h \
-  qt/pivx/pivxgui.h \
+  qt/maria/mariagui.h \
   qt/bitcoinunits.h \
   qt/clientmodel.h \
   qt/coincontroldialog.h \
@@ -213,75 +213,75 @@ BITCOIN_QT_H = \
   qt/utilitydialog.h \
   qt/walletmodel.h \
   qt/walletmodeltransaction.h \
-  qt/pivx/prunnable.h \
-  qt/pivx/pfborderimage.h \
-  qt/pivx/loadingdialog.h \
+  qt/maria/prunnable.h \
+  qt/maria/pfborderimage.h \
+  qt/maria/loadingdialog.h \
   qt/winshutdownmonitor.h \
-  qt/pivx/pwidget.h \
-  qt/pivx/focuseddialog.h \
-  qt/pivx/guitransactionsutils.h \
-  qt/pivx/snackbar.h \
-  qt/pivx/navmenuwidget.h \
-  qt/pivx/lockunlock.h \
-  qt/pivx/receivedialog.h \
-  qt/pivx/furlistrow.h \
-  qt/pivx/furabstractlistitemdelegate.h \
-  qt/pivx/txviewholder.h \
-  qt/pivx/qtutils.h \
-  qt/pivx/expandablebutton.h \
-  qt/pivx/balancebubble.h \
-  qt/pivx/topbar.h \
-  qt/pivx/txrow.h \
-  qt/pivx/addressholder.h \
-  qt/pivx/addressfilterproxymodel.h \
-  qt/pivx/dashboardwidget.h \
-  qt/pivx/addresslabelrow.h \
-  qt/pivx/contactdropdownrow.h \
-  qt/pivx/mninfodialog.h \
-  qt/pivx/optionbutton.h \
-  qt/pivx/coldstakingmodel.h \
-  qt/pivx/mnmodel.h \
-  qt/pivx/masternodewizarddialog.h \
-  qt/pivx/mnrow.h \
-  qt/pivx/masternodeswidget.h \
-  qt/pivx/myaddressrow.h \
-  qt/pivx/csrow.h \
-  qt/pivx/contactsdropdown.h \
-  qt/pivx/sendchangeaddressdialog.h \
-  qt/pivx/sendconfirmdialog.h \
-  qt/pivx/sendcustomfeedialog.h \
-  qt/pivx/sendmemodialog.h \
-  qt/pivx/sendmultirow.h \
-  qt/pivx/send.h \
-  qt/pivx/addnewaddressdialog.h \
-  qt/pivx/addnewcontactdialog.h \
-  qt/pivx/requestdialog.h \
-  qt/pivx/receivewidget.h \
-  qt/pivx/tooltipmenu.h \
-  qt/pivx/addresseswidget.h \
-  qt/pivx/defaultdialog.h \
-  qt/pivx/coldstakingwidget.h \
-  qt/pivx/governancemodel.h \
-  qt/pivx/proposalcard.h \
-  qt/pivx/mnselectiondialog.h \
-  qt/pivx/votedialog.h \
-  qt/pivx/createproposaldialog.h \
-  qt/pivx/proposalinfodialog.h \
-  qt/pivx/governancewidget.h \
-  qt/pivx/settings/settingsbackupwallet.h \
-  qt/pivx/settings/settingsexportcsv.h \
-  qt/pivx/settings/settingsbittoolwidget.h \
-  qt/pivx/settings/settingsconsolewidget.h \
-  qt/pivx/settings/settingsdisplayoptionswidget.h \
-  qt/pivx/settings/settingsfaqwidget.h \
-  qt/pivx/settings/settingsinformationwidget.h \
-  qt/pivx/settings/settingsmainoptionswidget.h \
-  qt/pivx/settings/settingssignmessagewidgets.h \
-  qt/pivx/settings/settingswalletoptionswidget.h \
-  qt/pivx/settings/settingswalletrepairwidget.h \
-  qt/pivx/settings/settingswidget.h \
-  qt/pivx/welcomecontentwidget.h \
-  qt/pivx/splash.h
+  qt/maria/pwidget.h \
+  qt/maria/focuseddialog.h \
+  qt/maria/guitransactionsutils.h \
+  qt/maria/snackbar.h \
+  qt/maria/navmenuwidget.h \
+  qt/maria/lockunlock.h \
+  qt/maria/receivedialog.h \
+  qt/maria/furlistrow.h \
+  qt/maria/furabstractlistitemdelegate.h \
+  qt/maria/txviewholder.h \
+  qt/maria/qtutils.h \
+  qt/maria/expandablebutton.h \
+  qt/maria/balancebubble.h \
+  qt/maria/topbar.h \
+  qt/maria/txrow.h \
+  qt/maria/addressholder.h \
+  qt/maria/addressfilterproxymodel.h \
+  qt/maria/dashboardwidget.h \
+  qt/maria/addresslabelrow.h \
+  qt/maria/contactdropdownrow.h \
+  qt/maria/mninfodialog.h \
+  qt/maria/optionbutton.h \
+  qt/maria/coldstakingmodel.h \
+  qt/maria/mnmodel.h \
+  qt/maria/masternodewizarddialog.h \
+  qt/maria/mnrow.h \
+  qt/maria/masternodeswidget.h \
+  qt/maria/myaddressrow.h \
+  qt/maria/csrow.h \
+  qt/maria/contactsdropdown.h \
+  qt/maria/sendchangeaddressdialog.h \
+  qt/maria/sendconfirmdialog.h \
+  qt/maria/sendcustomfeedialog.h \
+  qt/maria/sendmemodialog.h \
+  qt/maria/sendmultirow.h \
+  qt/maria/send.h \
+  qt/maria/addnewaddressdialog.h \
+  qt/maria/addnewcontactdialog.h \
+  qt/maria/requestdialog.h \
+  qt/maria/receivewidget.h \
+  qt/maria/tooltipmenu.h \
+  qt/maria/addresseswidget.h \
+  qt/maria/defaultdialog.h \
+  qt/maria/coldstakingwidget.h \
+  qt/maria/governancemodel.h \
+  qt/maria/proposalcard.h \
+  qt/maria/mnselectiondialog.h \
+  qt/maria/votedialog.h \
+  qt/maria/createproposaldialog.h \
+  qt/maria/proposalinfodialog.h \
+  qt/maria/governancewidget.h \
+  qt/maria/settings/settingsbackupwallet.h \
+  qt/maria/settings/settingsexportcsv.h \
+  qt/maria/settings/settingsbittoolwidget.h \
+  qt/maria/settings/settingsconsolewidget.h \
+  qt/maria/settings/settingsdisplayoptionswidget.h \
+  qt/maria/settings/settingsfaqwidget.h \
+  qt/maria/settings/settingsinformationwidget.h \
+  qt/maria/settings/settingsmainoptionswidget.h \
+  qt/maria/settings/settingssignmessagewidgets.h \
+  qt/maria/settings/settingswalletoptionswidget.h \
+  qt/maria/settings/settingswalletrepairwidget.h \
+  qt/maria/settings/settingswidget.h \
+  qt/maria/welcomecontentwidget.h \
+  qt/maria/splash.h
 
 RES_ICONS = \
   qt/res/icons/bitcoin.ico \
@@ -296,234 +296,234 @@ RES_ICONS = \
   qt/res/icons/ic-transaction-mint.svg \
   qt/res/icons/ic-transaction-sent.svg \
   qt/res/icons/ic-transaction-staked.svg \
-  qt/pivx/res/img/bg-dashboard-banner.png \
-  qt/pivx/res/img/bg-multi-number-dark.svg \
-  qt/pivx/res/img/ic-check-locked.svg \
-  qt/pivx/res/img/ic-nav-address.svg \
-  qt/pivx/res/img/ic-update.svg \
-  qt/pivx/res/img/bg-multi-number.svg \
-  qt/pivx/res/img/ic-check-mint-off.svg \
-  qt/pivx/res/img/ic-nav-cold-staking.svg \
-  qt/pivx/res/img/ic-nav-cold-staking-active.svg \
-  qt/pivx/res/img/ic-nav-dashboard-active.svg \
-  qt/pivx/res/img/ic-wallet-status-locked.svg \
-  qt/pivx/res/img/bg-splash.svg \
-  qt/pivx/res/img/bg-splash.png \
-  qt/pivx/res/img/ic-check-mint.svg \
-  qt/pivx/res/img/ic-nav-dashboard-hover.svg \
-  qt/pivx/res/img/ic-wallet-status-staking.svg \
-  qt/pivx/res/img/ic-check-peers-off.svg \
-  qt/pivx/res/img/ic-nav-dashboard.svg \
-  qt/pivx/res/img/ic-wallet-status-unlocked.svg \
-  qt/pivx/res/img/ic-check-peers.svg \
-  qt/pivx/res/img/ic-nav-master-active.svg \
-  qt/pivx/res/img/ic-watch-password-white.svg \
-  qt/pivx/res/img/bg-welcome-container.jpg \
-  qt/pivx/res/img/bg-welcome-container.png \
-  qt/pivx/res/img/bg-welcome-container.svg \
-  qt/pivx/res/img/bg-welcome-container@2x.png \
-  qt/pivx/res/img/bg-welcome-container@3x.png \
-  qt/pivx/res/img/ic-check-staking-off.svg \
-  qt/pivx/res/img/ic-nav-master-hover.svg \
-  qt/pivx/res/img/ic-watch-password.svg \
-  qt/pivx/res/img/bg-welcome.jpg \
-  qt/pivx/res/img/bg-welcome.svg \
-  qt/pivx/res/img/bg-welcome@2x.jpg \
-  qt/pivx/res/img/bg-welcome@3x.jpg \
-  qt/pivx/res/img/bg-welcome.png \
-  qt/pivx/res/img/ic-check-staking.svg \
-  qt/pivx/res/img/ic-nav-master.svg \
-  qt/pivx/res/img/img-dashboard-banner.jpg \
-  qt/pivx/res/img/btn-radio-active.svg \
-  qt/pivx/res/img/ic-check-sync-off.svg \
-  qt/pivx/res/img/ic-nav-privacy-active.svg \
-  qt/pivx/res/img/img-empty-contacts.svg \
-  qt/pivx/res/img/btn-radio-off.svg \
-  qt/pivx/res/img/ic-check-sync.png \
-  qt/pivx/res/img/ic-nav-privacy-hover.svg \
-  qt/pivx/res/img/img-empty-dark-contacts.svg \
-  qt/pivx/res/img/ic-contact-arrow-down.svg \
-  qt/pivx/res/img/ic-contact-arrow-down-white.svg \
-  qt/pivx/res/img/ic-check-sync.svg \
-  qt/pivx/res/img/ic-check-faq.svg \
-  qt/pivx/res/img/ic-nav-privacy.svg \
-  qt/pivx/res/img/img-empty-dark-error.svg \
-  qt/pivx/res/img/ic-add-label.svg \
-  qt/pivx/res/img/ic-pending.svg \
-  qt/pivx/res/img/ic-check-theme-dark.svg \
-  qt/pivx/res/img/ic-nav-receive-active.svg \
-  qt/pivx/res/img/img-empty-dark-masternode.svg \
-  qt/pivx/res/img/ic-add-liliac.svg \
-  qt/pivx/res/img/ic-check-theme-light.svg \
-  qt/pivx/res/img/ic-nav-receive-hover.svg \
-  qt/pivx/res/img/img-empty-dark-multisend.svg \
-  qt/pivx/res/img/ic-add-purple.svg \
-  qt/pivx/res/img/ic-check-white.svg \
-  qt/pivx/res/img/ic-nav-receive.svg \
-  qt/pivx/res/img/img-empty-dark-peers.svg \
-  qt/pivx/res/img/ic-add.svg \
-  qt/pivx/res/img/ic-check.svg \
-  qt/pivx/res/img/ic-nav-send-active.svg \
-  qt/pivx/res/img/img-empty-dark-staking-off.svg \
-  qt/pivx/res/img/img-empty-dark-staking-on.svg \
-  qt/pivx/res/img/ic-address-book-grey.svg \
-  qt/pivx/res/img/ic-chevron-left.svg \
-  qt/pivx/res/img/ic-nav-send-hover.svg \
-  qt/pivx/res/img/img-empty-dark-transactions.svg \
-  qt/pivx/res/img/ic-address-book-white.svg \
-  qt/pivx/res/img/ic-chevron-right.svg \
-  qt/pivx/res/img/ic-chevron-right-liliac.svg \
-  qt/pivx/res/img/ic-nav-send.svg \
-  qt/pivx/res/img/img-empty-error.svg \
-  qt/pivx/res/img/ic-address-book.svg \
-  qt/pivx/res/img/ic-clear-liliac.svg \
-  qt/pivx/res/img/ic-nav-settings-active.svg \
-  qt/pivx/res/img/img-empty-masternode.svg \
-  qt/pivx/res/img/ic-address-send-white.svg \
-  qt/pivx/res/img/ic-clear-purple.svg \
-  qt/pivx/res/img/ic-nav-settings-hover.svg \
-  qt/pivx/res/img/img-empty-multisend.svg \
-  qt/pivx/res/img/ic-address-send.svg \
-  qt/pivx/res/img/ic-close-white.svg \
-  qt/pivx/res/img/ic-nav-settings.svg \
-  qt/pivx/res/img/img-empty-peers.svg \
-  qt/pivx/res/img/img-empty-privacy.svg \
-  qt/pivx/res/img/img-empty-privacy-dark.svg \
-  qt/pivx/res/img/ic-arrow-drop-down-white.svg \
-  qt/pivx/res/img/ic-close.svg \
-  qt/pivx/res/img/ic-radio-liliac-on.svg \
-  qt/pivx/res/img/img-empty-staking-off.svg \
-  qt/pivx/res/img/ic-arrow-drop-down.svg \
-  qt/pivx/res/img/ic-coin-piv.svg \
-  qt/pivx/res/img/ic-receive-off.svg \
-  qt/pivx/res/img/img-empty-staking-on.svg \
-  qt/pivx/res/img/ic-arrow-drop-up-white.svg \
-  qt/pivx/res/img/ic-coin-zpiv.png \
-  qt/pivx/res/img/ic-receive-on.svg \
-  qt/pivx/res/img/img-empty-transactions.svg \
-  qt/pivx/res/img/ic-arrow-drop-up.svg \
-  qt/pivx/res/img/ic-coin-zpiv.svg \
-  qt/pivx/res/img/ic-received.svg \
-  qt/pivx/res/img/img-logo-pivx.png \
-  qt/pivx/res/img/ic-arrow-drop-white-down.svg \
-  qt/pivx/res/img/ic-combo-box.svg \
-  qt/pivx/res/img/ic-send.svg \
-  qt/pivx/res/img/img-logo-pivx@2x.png \
-  qt/pivx/res/img/ic-arrow-purple-down.svg \
-  qt/pivx/res/img/ic-connect.svg \
-  qt/pivx/res/img/ic-submenu-lock.svg \
-  qt/pivx/res/img/img-logo-pivx@3x.png \
-  qt/pivx/res/img/img-logo-pivx.svg \
-  qt/pivx/res/img/ic-arrow-right-white.svg \
-  qt/pivx/res/img/ic-arrow-left-white.svg \
-  qt/pivx/res/img/ic-arrow-left.svg \
-  qt/pivx/res/img/ic-copy-liliac.svg \
-  qt/pivx/res/img/ic-submenu-staking.svg \
-  qt/pivx/res/img/img-nav-logo-pivx.png \
-  qt/pivx/res/img/ic-arrow-right.svg \
-  qt/pivx/res/img/ic-copy.svg \
-  qt/pivx/res/img/ic-copy-big.svg \
-  qt/pivx/res/img/ic-copy-big-white.svg \
-  qt/pivx/res/img/ic-submenu-unlock.svg \
-  qt/pivx/res/img/img-nav-logo.png \
-  qt/pivx/res/img/ic-arrow-white-left.svg \
-  qt/pivx/res/img/ic-exit.svg \
-  qt/pivx/res/img/ic-switch-liliac-on.svg \
-  qt/pivx/res/img/img-nav-logo.svg \
-  qt/pivx/res/img/ic-arrow-white-right.svg \
-  qt/pivx/res/img/ic-expand.svg \
-  qt/pivx/res/img/ic-switch-off.svg \
-  qt/pivx/res/img/img-qr-test-big.png \
-  qt/pivx/res/img/ic-check-active.svg \
-  qt/pivx/res/img/ic-folder.svg \
-  qt/pivx/res/img/ic-switch-on.svg \
-  qt/pivx/res/img/img-qr-test.png \
-  qt/pivx/res/img/ic-check-box.svg \
-  qt/pivx/res/img/ic-check-box-light.svg \
-  qt/pivx/res/img/ic-check-box-dark-active.svg \
-  qt/pivx/res/img/ic-check-box-indeterminate.svg \
-  qt/pivx/res/img/ic-check-box-liliac-indeterminate.svg \
-  qt/pivx/res/img/ic-label-liliac.svg \
-  qt/pivx/res/img/ic-transaction-warning.svg \
-  qt/pivx/res/img/ic-transaction-mint.svg \
-  qt/pivx/res/img/ic-transaction-mint-inactive.svg \
-  qt/pivx/res/img/ic-check-cold-staking.svg \
-  qt/pivx/res/img/ic-check-cold-staking-off.svg \
-  qt/pivx/res/img/ic-check-cold-staking-enabled.svg \
-  qt/pivx/res/img/dark/ic-transaction-cs-contract.svg \
-  qt/pivx/res/img/dark/ic-transaction-cs-contract-inactive.svg \
-  qt/pivx/res/img/img-qr.svg \
-  qt/pivx/res/img/ic-check-connect-off.svg \
-  qt/pivx/res/img/ic-check-tor-off.svg \
-  qt/pivx/res/img/ic-check-tor.svg \
-  qt/pivx/res/img/ic-label.svg \
-  qt/pivx/res/img/ic-transaction-received.svg \
-  qt/pivx/res/img/dark/ic-transaction-received.svg \
-  qt/pivx/res/img/dark/ic-transaction-warning.svg \
-  qt/pivx/res/img/dark/ic-transaction-mint.svg \
-  qt/pivx/res/img/dark/ic-transaction-mint-inactive.svg \
-  qt/pivx/res/img/ic-transaction-received-inactive.svg \
-  qt/pivx/res/img/dark/ic-transaction-received-inactive.svg \
-  qt/pivx/res/img/img-welcome-step1.png \
-  qt/pivx/res/img/ic-check-connect.svg \
-  qt/pivx/res/img/ic-menu-hover.svg \
-  qt/pivx/res/img/ic-transaction-sent.svg \
-  qt/pivx/res/img/ic-transaction-sent-inactive.svg \
-  qt/pivx/res/img/dark/ic-transaction-sent.svg \
-  qt/pivx/res/img/dark/ic-transaction-sent-inactive.svg \
-  qt/pivx/res/img/img-welcome-step2.png \
-  qt/pivx/res/img/ic-check-dark.svg \
-  qt/pivx/res/img/ic-mint.svg \
-  qt/pivx/res/img/ic-transaction-staked.svg \
-  qt/pivx/res/img/ic-transaction-staked-inactive.svg \
-  qt/pivx/res/img/dark/ic-transaction-staked.svg \
-  qt/pivx/res/img/dark/ic-transaction-staked-inactive.svg \
-  qt/pivx/res/img/img-welcome-step3.png \
-  qt/pivx/res/img/ic-check-liliac-on.svg \
-  qt/pivx/res/img/ic-nav-address-active.svg \
-  qt/pivx/res/img/ic-unlock-staking.svg \
-  qt/pivx/res/img/img-welcome-step4.png \
-  qt/pivx/res/img/ic-check-locked-off.svg \
-  qt/pivx/res/img/ic-nav-address-hover.svg \
-  qt/pivx/res/img/ic-update-liliac.svg \
-  qt/pivx/res/img/ic-arrow-drop-down-purple.svg \
-  qt/pivx/res/img/ic-arrow-drop-up-purple.svg \
-  qt/pivx/res/img/ic-check-liliac-indeterminate.svg \
-  qt/pivx/res/img/ic-check-box-liliac-indeterminate.svg \
-  qt/pivx/res/img/ic-transaction-stake-delegated.svg \
-  qt/pivx/res/img/ic-transaction-stake-delegated-inactive.svg \
-  qt/pivx/res/img/ic-transaction-stake-hot.svg \
-  qt/pivx/res/img/ic-transaction-stake-hot-inactive.svg \
-  qt/pivx/res/img/dark/ic-transaction-stake-hot.svg \
-  qt/pivx/res/img/dark/ic-transaction-stake-hot-inactive.svg \
-  qt/pivx/res/img/dark/ic-transaction-stake-delegated.svg \
-  qt/pivx/res/img/dark/ic-transaction-stake-delegated-inactive.svg \
-  qt/pivx/res/img/ic-transaction-cs-contract.svg \
-  qt/pivx/res/img/ic-transaction-cs-contract-inactive.svg \
-  qt/pivx/res/img/ic-check-box-indeterminate.svg \
-  qt/pivx/res/img/ic-information.svg \
-  qt/pivx/res/img/ic-information-hover.svg \
-  qt/pivx/res/img/ani-loading-dark.gif \
-  qt/pivx/res/img/ani-loading.gif \
-  qt/pivx/res/img/ic-check-vote.svg \
-  qt/pivx/res/img/ic-check-vote-active.svg \
-  qt/pivx/res/img/ic-check-vote-dark.svg \
-  qt/pivx/res/img/ic-check-vote-active-dark.svg \
-  qt/pivx/res/img/ic-check-block.svg \
-  qt/pivx/res/img/ic-filter.svg \
-  qt/pivx/res/img/ic-link.svg \
-  qt/pivx/res/img/ic-nav-governance.svg \
-  qt/pivx/res/img/ic-nav-governance-active.svg \
-  qt/pivx/res/img/ic-nav-governance-hover.svg \
-  qt/pivx/res/img/ic-time.svg \
-  qt/pivx/res/img/ic-link-hover.svg \
-  qt/pivx/res/img/img-empty-governance.svg \
-  qt/pivx/res/img/img-empty-dark-governance.svg
+  qt/maria/res/img/bg-dashboard-banner.png \
+  qt/maria/res/img/bg-multi-number-dark.svg \
+  qt/maria/res/img/ic-check-locked.svg \
+  qt/maria/res/img/ic-nav-address.svg \
+  qt/maria/res/img/ic-update.svg \
+  qt/maria/res/img/bg-multi-number.svg \
+  qt/maria/res/img/ic-check-mint-off.svg \
+  qt/maria/res/img/ic-nav-cold-staking.svg \
+  qt/maria/res/img/ic-nav-cold-staking-active.svg \
+  qt/maria/res/img/ic-nav-dashboard-active.svg \
+  qt/maria/res/img/ic-wallet-status-locked.svg \
+  qt/maria/res/img/bg-splash.svg \
+  qt/maria/res/img/bg-splash.png \
+  qt/maria/res/img/ic-check-mint.svg \
+  qt/maria/res/img/ic-nav-dashboard-hover.svg \
+  qt/maria/res/img/ic-wallet-status-staking.svg \
+  qt/maria/res/img/ic-check-peers-off.svg \
+  qt/maria/res/img/ic-nav-dashboard.svg \
+  qt/maria/res/img/ic-wallet-status-unlocked.svg \
+  qt/maria/res/img/ic-check-peers.svg \
+  qt/maria/res/img/ic-nav-master-active.svg \
+  qt/maria/res/img/ic-watch-password-white.svg \
+  qt/maria/res/img/bg-welcome-container.jpg \
+  qt/maria/res/img/bg-welcome-container.png \
+  qt/maria/res/img/bg-welcome-container.svg \
+  qt/maria/res/img/bg-welcome-container@2x.png \
+  qt/maria/res/img/bg-welcome-container@3x.png \
+  qt/maria/res/img/ic-check-staking-off.svg \
+  qt/maria/res/img/ic-nav-master-hover.svg \
+  qt/maria/res/img/ic-watch-password.svg \
+  qt/maria/res/img/bg-welcome.jpg \
+  qt/maria/res/img/bg-welcome.svg \
+  qt/maria/res/img/bg-welcome@2x.jpg \
+  qt/maria/res/img/bg-welcome@3x.jpg \
+  qt/maria/res/img/bg-welcome.png \
+  qt/maria/res/img/ic-check-staking.svg \
+  qt/maria/res/img/ic-nav-master.svg \
+  qt/maria/res/img/img-dashboard-banner.jpg \
+  qt/maria/res/img/btn-radio-active.svg \
+  qt/maria/res/img/ic-check-sync-off.svg \
+  qt/maria/res/img/ic-nav-privacy-active.svg \
+  qt/maria/res/img/img-empty-contacts.svg \
+  qt/maria/res/img/btn-radio-off.svg \
+  qt/maria/res/img/ic-check-sync.png \
+  qt/maria/res/img/ic-nav-privacy-hover.svg \
+  qt/maria/res/img/img-empty-dark-contacts.svg \
+  qt/maria/res/img/ic-contact-arrow-down.svg \
+  qt/maria/res/img/ic-contact-arrow-down-white.svg \
+  qt/maria/res/img/ic-check-sync.svg \
+  qt/maria/res/img/ic-check-faq.svg \
+  qt/maria/res/img/ic-nav-privacy.svg \
+  qt/maria/res/img/img-empty-dark-error.svg \
+  qt/maria/res/img/ic-add-label.svg \
+  qt/maria/res/img/ic-pending.svg \
+  qt/maria/res/img/ic-check-theme-dark.svg \
+  qt/maria/res/img/ic-nav-receive-active.svg \
+  qt/maria/res/img/img-empty-dark-masternode.svg \
+  qt/maria/res/img/ic-add-liliac.svg \
+  qt/maria/res/img/ic-check-theme-light.svg \
+  qt/maria/res/img/ic-nav-receive-hover.svg \
+  qt/maria/res/img/img-empty-dark-multisend.svg \
+  qt/maria/res/img/ic-add-purple.svg \
+  qt/maria/res/img/ic-check-white.svg \
+  qt/maria/res/img/ic-nav-receive.svg \
+  qt/maria/res/img/img-empty-dark-peers.svg \
+  qt/maria/res/img/ic-add.svg \
+  qt/maria/res/img/ic-check.svg \
+  qt/maria/res/img/ic-nav-send-active.svg \
+  qt/maria/res/img/img-empty-dark-staking-off.svg \
+  qt/maria/res/img/img-empty-dark-staking-on.svg \
+  qt/maria/res/img/ic-address-book-grey.svg \
+  qt/maria/res/img/ic-chevron-left.svg \
+  qt/maria/res/img/ic-nav-send-hover.svg \
+  qt/maria/res/img/img-empty-dark-transactions.svg \
+  qt/maria/res/img/ic-address-book-white.svg \
+  qt/maria/res/img/ic-chevron-right.svg \
+  qt/maria/res/img/ic-chevron-right-liliac.svg \
+  qt/maria/res/img/ic-nav-send.svg \
+  qt/maria/res/img/img-empty-error.svg \
+  qt/maria/res/img/ic-address-book.svg \
+  qt/maria/res/img/ic-clear-liliac.svg \
+  qt/maria/res/img/ic-nav-settings-active.svg \
+  qt/maria/res/img/img-empty-masternode.svg \
+  qt/maria/res/img/ic-address-send-white.svg \
+  qt/maria/res/img/ic-clear-purple.svg \
+  qt/maria/res/img/ic-nav-settings-hover.svg \
+  qt/maria/res/img/img-empty-multisend.svg \
+  qt/maria/res/img/ic-address-send.svg \
+  qt/maria/res/img/ic-close-white.svg \
+  qt/maria/res/img/ic-nav-settings.svg \
+  qt/maria/res/img/img-empty-peers.svg \
+  qt/maria/res/img/img-empty-privacy.svg \
+  qt/maria/res/img/img-empty-privacy-dark.svg \
+  qt/maria/res/img/ic-arrow-drop-down-white.svg \
+  qt/maria/res/img/ic-close.svg \
+  qt/maria/res/img/ic-radio-liliac-on.svg \
+  qt/maria/res/img/img-empty-staking-off.svg \
+  qt/maria/res/img/ic-arrow-drop-down.svg \
+  qt/maria/res/img/ic-coin-mari.svg \
+  qt/maria/res/img/ic-receive-off.svg \
+  qt/maria/res/img/img-empty-staking-on.svg \
+  qt/maria/res/img/ic-arrow-drop-up-white.svg \
+  qt/maria/res/img/ic-coin-zmari.png \
+  qt/maria/res/img/ic-receive-on.svg \
+  qt/maria/res/img/img-empty-transactions.svg \
+  qt/maria/res/img/ic-arrow-drop-up.svg \
+  qt/maria/res/img/ic-coin-zmari.svg \
+  qt/maria/res/img/ic-received.svg \
+  qt/maria/res/img/img-logo-maria.png \
+  qt/maria/res/img/ic-arrow-drop-white-down.svg \
+  qt/maria/res/img/ic-combo-box.svg \
+  qt/maria/res/img/ic-send.svg \
+  qt/maria/res/img/img-logo-maria@2x.png \
+  qt/maria/res/img/ic-arrow-purple-down.svg \
+  qt/maria/res/img/ic-connect.svg \
+  qt/maria/res/img/ic-submenu-lock.svg \
+  qt/maria/res/img/img-logo-maria@3x.png \
+  qt/maria/res/img/img-logo-maria.svg \
+  qt/maria/res/img/ic-arrow-right-white.svg \
+  qt/maria/res/img/ic-arrow-left-white.svg \
+  qt/maria/res/img/ic-arrow-left.svg \
+  qt/maria/res/img/ic-copy-liliac.svg \
+  qt/maria/res/img/ic-submenu-staking.svg \
+  qt/maria/res/img/img-nav-logo-maria.png \
+  qt/maria/res/img/ic-arrow-right.svg \
+  qt/maria/res/img/ic-copy.svg \
+  qt/maria/res/img/ic-copy-big.svg \
+  qt/maria/res/img/ic-copy-big-white.svg \
+  qt/maria/res/img/ic-submenu-unlock.svg \
+  qt/maria/res/img/img-nav-logo.png \
+  qt/maria/res/img/ic-arrow-white-left.svg \
+  qt/maria/res/img/ic-exit.svg \
+  qt/maria/res/img/ic-switch-liliac-on.svg \
+  qt/maria/res/img/img-nav-logo.svg \
+  qt/maria/res/img/ic-arrow-white-right.svg \
+  qt/maria/res/img/ic-expand.svg \
+  qt/maria/res/img/ic-switch-off.svg \
+  qt/maria/res/img/img-qr-test-big.png \
+  qt/maria/res/img/ic-check-active.svg \
+  qt/maria/res/img/ic-folder.svg \
+  qt/maria/res/img/ic-switch-on.svg \
+  qt/maria/res/img/img-qr-test.png \
+  qt/maria/res/img/ic-check-box.svg \
+  qt/maria/res/img/ic-check-box-light.svg \
+  qt/maria/res/img/ic-check-box-dark-active.svg \
+  qt/maria/res/img/ic-check-box-indeterminate.svg \
+  qt/maria/res/img/ic-check-box-liliac-indeterminate.svg \
+  qt/maria/res/img/ic-label-liliac.svg \
+  qt/maria/res/img/ic-transaction-warning.svg \
+  qt/maria/res/img/ic-transaction-mint.svg \
+  qt/maria/res/img/ic-transaction-mint-inactive.svg \
+  qt/maria/res/img/ic-check-cold-staking.svg \
+  qt/maria/res/img/ic-check-cold-staking-off.svg \
+  qt/maria/res/img/ic-check-cold-staking-enabled.svg \
+  qt/maria/res/img/dark/ic-transaction-cs-contract.svg \
+  qt/maria/res/img/dark/ic-transaction-cs-contract-inactive.svg \
+  qt/maria/res/img/img-qr.svg \
+  qt/maria/res/img/ic-check-connect-off.svg \
+  qt/maria/res/img/ic-check-tor-off.svg \
+  qt/maria/res/img/ic-check-tor.svg \
+  qt/maria/res/img/ic-label.svg \
+  qt/maria/res/img/ic-transaction-received.svg \
+  qt/maria/res/img/dark/ic-transaction-received.svg \
+  qt/maria/res/img/dark/ic-transaction-warning.svg \
+  qt/maria/res/img/dark/ic-transaction-mint.svg \
+  qt/maria/res/img/dark/ic-transaction-mint-inactive.svg \
+  qt/maria/res/img/ic-transaction-received-inactive.svg \
+  qt/maria/res/img/dark/ic-transaction-received-inactive.svg \
+  qt/maria/res/img/img-welcome-step1.png \
+  qt/maria/res/img/ic-check-connect.svg \
+  qt/maria/res/img/ic-menu-hover.svg \
+  qt/maria/res/img/ic-transaction-sent.svg \
+  qt/maria/res/img/ic-transaction-sent-inactive.svg \
+  qt/maria/res/img/dark/ic-transaction-sent.svg \
+  qt/maria/res/img/dark/ic-transaction-sent-inactive.svg \
+  qt/maria/res/img/img-welcome-step2.png \
+  qt/maria/res/img/ic-check-dark.svg \
+  qt/maria/res/img/ic-mint.svg \
+  qt/maria/res/img/ic-transaction-staked.svg \
+  qt/maria/res/img/ic-transaction-staked-inactive.svg \
+  qt/maria/res/img/dark/ic-transaction-staked.svg \
+  qt/maria/res/img/dark/ic-transaction-staked-inactive.svg \
+  qt/maria/res/img/img-welcome-step3.png \
+  qt/maria/res/img/ic-check-liliac-on.svg \
+  qt/maria/res/img/ic-nav-address-active.svg \
+  qt/maria/res/img/ic-unlock-staking.svg \
+  qt/maria/res/img/img-welcome-step4.png \
+  qt/maria/res/img/ic-check-locked-off.svg \
+  qt/maria/res/img/ic-nav-address-hover.svg \
+  qt/maria/res/img/ic-update-liliac.svg \
+  qt/maria/res/img/ic-arrow-drop-down-purple.svg \
+  qt/maria/res/img/ic-arrow-drop-up-purple.svg \
+  qt/maria/res/img/ic-check-liliac-indeterminate.svg \
+  qt/maria/res/img/ic-check-box-liliac-indeterminate.svg \
+  qt/maria/res/img/ic-transaction-stake-delegated.svg \
+  qt/maria/res/img/ic-transaction-stake-delegated-inactive.svg \
+  qt/maria/res/img/ic-transaction-stake-hot.svg \
+  qt/maria/res/img/ic-transaction-stake-hot-inactive.svg \
+  qt/maria/res/img/dark/ic-transaction-stake-hot.svg \
+  qt/maria/res/img/dark/ic-transaction-stake-hot-inactive.svg \
+  qt/maria/res/img/dark/ic-transaction-stake-delegated.svg \
+  qt/maria/res/img/dark/ic-transaction-stake-delegated-inactive.svg \
+  qt/maria/res/img/ic-transaction-cs-contract.svg \
+  qt/maria/res/img/ic-transaction-cs-contract-inactive.svg \
+  qt/maria/res/img/ic-check-box-indeterminate.svg \
+  qt/maria/res/img/ic-information.svg \
+  qt/maria/res/img/ic-information-hover.svg \
+  qt/maria/res/img/ani-loading-dark.gif \
+  qt/maria/res/img/ani-loading.gif \
+  qt/maria/res/img/ic-check-vote.svg \
+  qt/maria/res/img/ic-check-vote-active.svg \
+  qt/maria/res/img/ic-check-vote-dark.svg \
+  qt/maria/res/img/ic-check-vote-active-dark.svg \
+  qt/maria/res/img/ic-check-block.svg \
+  qt/maria/res/img/ic-filter.svg \
+  qt/maria/res/img/ic-link.svg \
+  qt/maria/res/img/ic-nav-governance.svg \
+  qt/maria/res/img/ic-nav-governance-active.svg \
+  qt/maria/res/img/ic-nav-governance-hover.svg \
+  qt/maria/res/img/ic-time.svg \
+  qt/maria/res/img/ic-link-hover.svg \
+  qt/maria/res/img/img-empty-governance.svg \
+  qt/maria/res/img/img-empty-dark-governance.svg
 
 BITCOIN_QT_BASE_CPP = \
   qt/bantablemodel.cpp \
   qt/bitcoinaddressvalidator.cpp \
-  qt/pivx/pivxgui.cpp \
+  qt/maria/mariagui.cpp \
   qt/bitcoinunits.cpp \
   qt/clientmodel.cpp \
   qt/csvmodelwriter.cpp \
@@ -558,71 +558,71 @@ BITCOIN_QT_WALLET_CPP = \
   qt/transactiontablemodel.cpp \
   qt/walletmodel.cpp \
   qt/walletmodeltransaction.cpp \
-  qt/pivx/loadingdialog.cpp \
-  qt/pivx/pwidget.cpp \
-  qt/pivx/focuseddialog.cpp \
-  qt/pivx/guitransactionsutils.cpp \
-  qt/pivx/snackbar.cpp \
-  qt/pivx/navmenuwidget.cpp \
-  qt/pivx/lockunlock.cpp \
-  qt/pivx/receivedialog.cpp \
-  qt/pivx/furabstractlistitemdelegate.cpp \
-  qt/pivx/txviewholder.cpp \
-  qt/pivx/qtutils.cpp \
-  qt/pivx/expandablebutton.cpp \
-  qt/pivx/balancebubble.cpp \
-  qt/pivx/topbar.cpp \
-  qt/pivx/txrow.cpp \
-  qt/pivx/addressholder.cpp \
-  qt/pivx/addressfilterproxymodel.cpp \
-  qt/pivx/dashboardwidget.cpp \
-  qt/pivx/addresslabelrow.cpp \
-  qt/pivx/contactdropdownrow.cpp \
-  qt/pivx/contactsdropdown.cpp \
-  qt/pivx/optionbutton.cpp \
-  qt/pivx/mninfodialog.cpp \
-  qt/pivx/coldstakingmodel.cpp \
-  qt/pivx/mnmodel.cpp \
-  qt/pivx/masternodewizarddialog.cpp \
-  qt/pivx/mnrow.cpp \
-  qt/pivx/masternodeswidget.cpp \
-  qt/pivx/myaddressrow.cpp \
-  qt/pivx/csrow.cpp \
-  qt/pivx/sendchangeaddressdialog.cpp \
-  qt/pivx/sendconfirmdialog.cpp \
-  qt/pivx/sendcustomfeedialog.cpp \
-  qt/pivx/sendmemodialog.cpp \
-  qt/pivx/sendmultirow.cpp \
-  qt/pivx/send.cpp \
-  qt/pivx/addnewaddressdialog.cpp \
-  qt/pivx/addnewcontactdialog.cpp \
-  qt/pivx/requestdialog.cpp \
-  qt/pivx/receivewidget.cpp \
-  qt/pivx/tooltipmenu.cpp \
-  qt/pivx/addresseswidget.cpp \
-  qt/pivx/defaultdialog.cpp \
-  qt/pivx/coldstakingwidget.cpp \
-  qt/pivx/governancemodel.cpp \
-  qt/pivx/proposalcard.cpp \
-  qt/pivx/mnselectiondialog.cpp \
-  qt/pivx/votedialog.cpp \
-  qt/pivx/createproposaldialog.cpp \
-  qt/pivx/proposalinfodialog.cpp \
-  qt/pivx/governancewidget.cpp \
-  qt/pivx/settings/settingsbackupwallet.cpp \
-  qt/pivx/settings/settingsexportcsv.cpp \
-  qt/pivx/settings/settingsbittoolwidget.cpp \
-  qt/pivx/settings/settingsconsolewidget.cpp \
-  qt/pivx/settings/settingsdisplayoptionswidget.cpp \
-  qt/pivx/settings/settingsfaqwidget.cpp \
-  qt/pivx/settings/settingsinformationwidget.cpp \
-  qt/pivx/settings/settingsmainoptionswidget.cpp \
-  qt/pivx/settings/settingssignmessagewidgets.cpp \
-  qt/pivx/settings/settingswalletoptionswidget.cpp \
-  qt/pivx/settings/settingswalletrepairwidget.cpp \
-  qt/pivx/settings/settingswidget.cpp \
-  qt/pivx/welcomecontentwidget.cpp \
-  qt/pivx/splash.cpp
+  qt/maria/loadingdialog.cpp \
+  qt/maria/pwidget.cpp \
+  qt/maria/focuseddialog.cpp \
+  qt/maria/guitransactionsutils.cpp \
+  qt/maria/snackbar.cpp \
+  qt/maria/navmenuwidget.cpp \
+  qt/maria/lockunlock.cpp \
+  qt/maria/receivedialog.cpp \
+  qt/maria/furabstractlistitemdelegate.cpp \
+  qt/maria/txviewholder.cpp \
+  qt/maria/qtutils.cpp \
+  qt/maria/expandablebutton.cpp \
+  qt/maria/balancebubble.cpp \
+  qt/maria/topbar.cpp \
+  qt/maria/txrow.cpp \
+  qt/maria/addressholder.cpp \
+  qt/maria/addressfilterproxymodel.cpp \
+  qt/maria/dashboardwidget.cpp \
+  qt/maria/addresslabelrow.cpp \
+  qt/maria/contactdropdownrow.cpp \
+  qt/maria/contactsdropdown.cpp \
+  qt/maria/optionbutton.cpp \
+  qt/maria/mninfodialog.cpp \
+  qt/maria/coldstakingmodel.cpp \
+  qt/maria/mnmodel.cpp \
+  qt/maria/masternodewizarddialog.cpp \
+  qt/maria/mnrow.cpp \
+  qt/maria/masternodeswidget.cpp \
+  qt/maria/myaddressrow.cpp \
+  qt/maria/csrow.cpp \
+  qt/maria/sendchangeaddressdialog.cpp \
+  qt/maria/sendconfirmdialog.cpp \
+  qt/maria/sendcustomfeedialog.cpp \
+  qt/maria/sendmemodialog.cpp \
+  qt/maria/sendmultirow.cpp \
+  qt/maria/send.cpp \
+  qt/maria/addnewaddressdialog.cpp \
+  qt/maria/addnewcontactdialog.cpp \
+  qt/maria/requestdialog.cpp \
+  qt/maria/receivewidget.cpp \
+  qt/maria/tooltipmenu.cpp \
+  qt/maria/addresseswidget.cpp \
+  qt/maria/defaultdialog.cpp \
+  qt/maria/coldstakingwidget.cpp \
+  qt/maria/governancemodel.cpp \
+  qt/maria/proposalcard.cpp \
+  qt/maria/mnselectiondialog.cpp \
+  qt/maria/votedialog.cpp \
+  qt/maria/createproposaldialog.cpp \
+  qt/maria/proposalinfodialog.cpp \
+  qt/maria/governancewidget.cpp \
+  qt/maria/settings/settingsbackupwallet.cpp \
+  qt/maria/settings/settingsexportcsv.cpp \
+  qt/maria/settings/settingsbittoolwidget.cpp \
+  qt/maria/settings/settingsconsolewidget.cpp \
+  qt/maria/settings/settingsdisplayoptionswidget.cpp \
+  qt/maria/settings/settingsfaqwidget.cpp \
+  qt/maria/settings/settingsinformationwidget.cpp \
+  qt/maria/settings/settingsmainoptionswidget.cpp \
+  qt/maria/settings/settingssignmessagewidgets.cpp \
+  qt/maria/settings/settingswalletoptionswidget.cpp \
+  qt/maria/settings/settingswalletrepairwidget.cpp \
+  qt/maria/settings/settingswidget.cpp \
+  qt/maria/welcomecontentwidget.cpp \
+  qt/maria/splash.cpp
 
 
 BITCOIN_QT_CPP = $(BITCOIN_QT_BASE_CPP)
@@ -641,10 +641,10 @@ RES_IMAGES = \
 
 RES_CSS = \
   qt/res/css/default.css \
-  qt/pivx/res/css/style_dark.css \
-  qt/pivx/res/css/style_light.css
+  qt/maria/res/css/style_dark.css \
+  qt/maria/res/css/style_light.css
 
-BITCOIN_RC = qt/res/pivx-qt-res.rc
+BITCOIN_RC = qt/res/maria-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms -DQT_NO_KEYWORDS
@@ -665,66 +665,66 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_pivx_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_maria_qt_OBJECTS) : | $(QT_MOC)
 
-# pivx-qt binary #
-qt_pivx_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# maria-qt binary #
+qt_maria_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(QR_CFLAGS) $(SVG_CFLAGS) $(CHARTS_CFLAGS)
-qt_pivx_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
+qt_maria_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
 
-qt_pivx_qt_SOURCES = qt/pivx.cpp
+qt_maria_qt_SOURCES = qt/maria.cpp
 if TARGET_DARWIN
-  qt_pivx_qt_SOURCES += $(BITCOIN_MM)
+  qt_maria_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_pivx_qt_SOURCES += $(BITCOIN_RC)
+  qt_maria_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_pivx_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_maria_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_pivx_qt_LDADD += $(LIBBITCOIN_UTIL) $(LIBBITCOIN_WALLET)
+qt_maria_qt_LDADD += $(LIBBITCOIN_UTIL) $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_pivx_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_maria_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_pivx_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBSAPLING) $(LIBRUSTZCASH) $(LIBZCASH_LIBS) $(LIBLEVELDB) $(LIBLEVELDB_SSE42) $(LIBMEMENV) \
+qt_maria_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBSAPLING) $(LIBRUSTZCASH) $(LIBZCASH_LIBS) $(LIBLEVELDB) $(LIBLEVELDB_SSE42) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(SVG_LIBS) $(CHARTS_LIBS) $(BDB_LIBS) $(MINIUPNPC_LIBS) $(NATPMP_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(BLS_LIBS)
-qt_pivx_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_pivx_qt_LIBTOOLFLAGS = $(AM_LIBTOOLFLAGS) --tag CXX
+qt_maria_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_maria_qt_LIBTOOLFLAGS = $(AM_LIBTOOLFLAGS) --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 SECONDARY: $(QT_QM)
 
-$(srcdir)/qt/pivxstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_util_a_SOURCES)
+$(srcdir)/qt/mariastrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_util_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: $(srcdir)/qt/pivxstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_BASE_CPP) qt/pivx.cpp $(BITCOIN_QT_WINDOWS_CPP) $(BITCOIN_QT_WALLET_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: $(srcdir)/qt/mariastrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_BASE_CPP) qt/maria.cpp $(BITCOIN_QT_WINDOWS_CPP) $(BITCOIN_QT_WALLET_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts $(srcdir)/qt/locale/pivx_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts $(srcdir)/qt/locale/maria_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@cp -f $< $(@D)/temp_$(<F)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name pivx_locale $(@D)/temp_$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name maria_locale $(@D)/temp_$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 	@rm $(@D)/temp_$(<F)
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name pivx $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name maria $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
-CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/pivx/*.gcda qt/pivx/*.gcno qt/pivx/settings/*.gcda qt/pivx/settings/*.gcno qt/temp_pivx_locale.qrc
+CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/maria/*.gcda qt/maria/*.gcno qt/maria/settings/*.gcda qt/maria/settings/*.gcno qt/temp_maria_locale.qrc
 
 CLEANFILES += $(CLEAN_QT)
 
-pivx_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_pivx_qt_OBJECTS) qt/pivx-qt$(EXEEXT) $(LIBBITCOINQT)
+maria_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_maria_qt_OBJECTS) qt/maria-qt$(EXEEXT) $(LIBBITCOINQT)
 
-pivx_qt : qt/pivx-qt$(EXEEXT)
+maria_qt : qt/maria-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)
