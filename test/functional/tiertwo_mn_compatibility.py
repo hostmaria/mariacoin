@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2021 The PIVX developers
+# Copyright (c) 2021 The LiquidLabs Developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://www.opensource.org/licenses/mit-license.php.
 """
@@ -8,14 +8,14 @@ Test checking compatibility code between MN and DMN
 
 from decimal import Decimal
 
-from test_framework.test_framework import PivxTier2TestFramework
+from test_framework.test_framework import MariaTier2TestFramework
 from test_framework.util import (
     assert_equal,
     connect_nodes,
 )
 
 
-class MasternodeCompatibilityTest(PivxTier2TestFramework):
+class MasternodeCompatibilityTest(MariaTier2TestFramework):
 
     def set_test_params(self):
         self.setup_clean_chain = True

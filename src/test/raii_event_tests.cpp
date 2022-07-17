@@ -12,7 +12,7 @@
 
 #include "support/events.h"
 
-#include "test/test_pivx.h"
+#include "test/test_maria.h"
 
 #include <boost/test/unit_test.hpp>
 

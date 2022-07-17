@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=MARIA Core
+Comment=MARIA P2P Cryptocurrency
+Comment[fr]=MARIA, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=MARIA, eşten eşe kriptografik sanal para birimi
+Exec=maria-qt %u
+Terminal=false
+Type=Application
+Icon=maria128
+MimeType=x-scheme-handler/maria;
+Categories=Office;Finance;
+StartupWMClass=Maria-qt

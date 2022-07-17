@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2020 The PIVX developers
+# Copyright (c) 2020 The LiquidLabs Developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://www.opensource.org/licenses/mit-license.php.
 """
@@ -14,7 +14,7 @@ Test checking:
 import time
 
 from test_framework.messages import COutPoint
-from test_framework.test_framework import PivxTier2TestFramework
+from test_framework.test_framework import MariaTier2TestFramework
 from test_framework.util import (
     assert_equal,
     assert_true,
@@ -35,7 +35,7 @@ class Proposal:
         self.feeTxId = ""
         self.proposalHash = ""
 
-class MasternodeGovernanceBasicTest(PivxTier2TestFramework):
+class MasternodeGovernanceBasicTest(MariaTier2TestFramework):
 
     def check_mns_status_legacy(self, node, txhash):
         status = node.getmasternodestatus()
@@ -201,7 +201,7 @@ class MasternodeGovernanceBasicTest(PivxTier2TestFramework):
         self.log.info("preparing budget proposal..")
         firstProposal = Proposal(
             "super-cool",
-            "https://forum.pivx.org/t/test-proposal",
+            "https://forum.maria.org/t/test-proposal",
             2,
             self.miner.getnewaddress(),
             300

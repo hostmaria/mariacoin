@@ -1,0 +1,6 @@
+usr/local/bin/maria-qt usr/bin
+share/pixmaps/maria32.xpm usr/share/pixmaps
+share/pixmaps/maria16.xpm usr/share/pixmaps
+share/pixmaps/maria128.png usr/share/pixmaps
+debian/maria-qt.desktop usr/share/applications
+debian/maria-qt.protocol usr/share/kde4/services/

@@ -14,7 +14,7 @@
 
 #include <cstdint>
 
-#include "test/test_pivx.h"
+#include "test/test_maria.h"
 
 #include <ios>
 #include <string>

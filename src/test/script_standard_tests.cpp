@@ -7,7 +7,7 @@
 #include "script/ismine.h"
 #include "script/script.h"
 #include "script/standard.h"
-#include "test/test_pivx.h"
+#include "test/test_maria.h"
 
 #include <boost/test/unit_test.hpp>
 

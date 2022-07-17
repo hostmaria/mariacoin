@@ -1,10 +1,10 @@
 // Copyright (c) 2016-2021 The Bitcoin Core developers
-// Copyright (c) 2020-2021 The PIVX developers
+// Copyright (c) 2020-2021 The LiquidLabs Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_WALLET_TEST_FIXTURE_H
-#define PIVX_WALLET_TEST_FIXTURE_H
+#ifndef MARIA_WALLET_TEST_FIXTURE_H
+#define MARIA_WALLET_TEST_FIXTURE_H
 
 #include "test/librust/sapling_test_fixture.h"
 #include "wallet/wallet.h"
@@ -25,5 +25,5 @@ struct WalletRegTestingSetup : public WalletTestingSetup
     WalletRegTestingSetup() : WalletTestingSetup(CBaseChainParams::REGTEST) {}
 };
 
-#endif // PIVX_WALLET_TEST_FIXTURE_H
+#endif // MARIA_WALLET_TEST_FIXTURE_H
 

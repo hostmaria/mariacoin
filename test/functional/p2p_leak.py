@@ -10,7 +10,7 @@ received a VERACK.
 This test connects to a node and sends it a few messages, trying to intice it
 into sending us something it shouldn't.
 
-Also test that nodes that send unsupported service bits to pivxd are disconnected
+Also test that nodes that send unsupported service bits to mariad are disconnected
 and don't receive a VERACK. Unsupported service bits are currently 1 << 5 and
 1 << 7 (until August 1st 2018).
 """
@@ -19,7 +19,7 @@ import time
 
 from test_framework.messages import NODE_NETWORK, msg_getaddr, msg_ping, msg_verack
 from test_framework.mininode import mininode_lock, P2PInterface
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import MariaTestFramework
 from test_framework.util import wait_until
 
 
@@ -64,7 +64,7 @@ class CLazyNode(P2PInterface):
 # anyway, and eventually get disconnected.
 class CNodeNoVersionBan(CLazyNode):
     # send a bunch of veracks without sending a message. This should get us disconnected.
-    # NOTE: implementation-specific check here. Remove if pivxd ban behavior changes
+    # NOTE: implementation-specific check here. Remove if mariad ban behavior changes
     def on_open(self):
         super().on_open()
         for i in range(banscore):
@@ -91,7 +91,7 @@ class CNodeNoVerackIdle(CLazyNode):
         self.send_message(msg_ping())
         self.send_message(msg_getaddr())
 
-class P2PLeakTest(PivxTestFramework):
+class P2PLeakTest(MariaTestFramework):
     def set_test_params(self):
         self.num_nodes = 1
         self.extra_args = [['-banscore='+str(banscore)]]

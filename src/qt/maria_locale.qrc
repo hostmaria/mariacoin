@@ -1,0 +1,13 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="de">locale/maria_de.qm</file>
+        <file alias="en">locale/maria_en.qm</file>
+        <file alias="en_US">locale/maria_en_US.qm</file>
+        <file alias="es">locale/maria_es.qm</file>
+        <file alias="fr_FR">locale/maria_fr_FR.qm</file>
+        <file alias="hr_HR">locale/maria_hr_HR.qm</file>
+        <file alias="ko_KR">locale/maria_ko_KR.qm</file>
+        <file alias="nl">locale/maria_nl.qm</file>
+        <file alias="pl">locale/maria_pl.qm</file>
+    </qresource>
+</RCC>

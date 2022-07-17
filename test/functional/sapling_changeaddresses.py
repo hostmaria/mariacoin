@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 # Copyright (c) 2019 The Zcash developers
-# Copyright (c) 2020 The PIVX developers
+# Copyright (c) 2020 The LiquidLabs Developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 from decimal import Decimal
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import MariaTestFramework
 from test_framework.util import assert_true, get_coinstake_address
 
 
 # Test wallet change address behaviour
-class WalletChangeAddressesTest(PivxTestFramework):
+class WalletChangeAddressesTest(MariaTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 2
