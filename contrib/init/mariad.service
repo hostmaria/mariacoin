@@ -5,19 +5,19 @@
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/pivx/pivx.conf
+# /etc/maria/maria.conf
 
 [Unit]
-Description=PIVX daemon
+Description=MARIA daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/pivxd -daemon -conf=/etc/pivx/pivx.conf -pid=/run/pivxd/pivxd.pid
-# Creates /run/pivxd owned by pivx
-RuntimeDirectory=pivxd
-User=pivx
+ExecStart=/usr/bin/mariad -daemon -conf=/etc/maria/maria.conf -pid=/run/mariad/mariad.pid
+# Creates /run/mariad owned by maria
+RuntimeDirectory=mariad
+User=maria
 Type=forking
-PIDFile=/run/pivxd/pivxd.pid
+PIDFile=/run/mariad/mariad.pid
 Restart=on-failure
 
 # Hardening measures

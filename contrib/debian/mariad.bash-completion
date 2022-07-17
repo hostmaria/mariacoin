@@ -1,2 +1,2 @@
-contrib/pivxd.bash-completion	pivxd
-contrib/pivx-cli.bash-completion pivx-cli
+contrib/mariad.bash-completion	mariad
+contrib/maria-cli.bash-completion maria-cli
