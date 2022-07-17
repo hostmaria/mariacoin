@@ -6,7 +6,7 @@
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/maria-config.h"
 #endif
 
 #include "chainparams.h"
