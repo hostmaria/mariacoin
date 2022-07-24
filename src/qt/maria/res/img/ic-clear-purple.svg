@@ -1,12 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="30px" height="22px" viewBox="0 0 30 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Clear Purple</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Clear-Purple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-clear-purple" transform="translate(5.000000, 3.000000)">
-            <polygon id="Path_18950" fill="#5C4B7D" points="13.707 3.707 12.293 2.293 8 6.586 3.707 2.293 2.293 3.707 6.586 8 2.293 12.293 3.707 13.707 8 9.414 12.293 13.707 13.707 12.293 9.414 8"></polygon>
-            <polygon id="Rectangle_4602" points="0 0 16 0 16 16 0 16"></polygon>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="30px"
+   height="22px"
+   viewBox="0 0 30 22"
+   version="1.1"
+   id="svg39267"
+   sodipodi:docname="ic-clear-purple.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs39271" />
+  <sodipodi:namedview
+     id="namedview39269"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="38.045455"
+     inkscape:cx="15.008363"
+     inkscape:cy="11.013142"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg39267" />
+  <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title39259">Clear Purple</title>
+  <desc
+     id="desc39261">Created with Sketch.</desc>
+  <g
+     id="Clear-Purple"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="ic-clear-purple"
+       transform="translate(5.000000, 3.000000)">
+      <polygon
+         id="Path_18950"
+         fill="#5C4B7D"
+         points="13.707 3.707 12.293 2.293 8 6.586 3.707 2.293 2.293 3.707 6.586 8 2.293 12.293 3.707 13.707 8 9.414 12.293 13.707 13.707 12.293 9.414 8" />
+      <polygon
+         id="Rectangle_4602"
+         points="0 0 16 0 16 16 0 16" />
     </g>
+  </g>
+  <path
+     style="fill:#a0892c;stroke:#a0892c;stroke-width:0.0262843"
+     d="M 8.0162112,15.981164 7.3191608,15.285339 9.4618103,13.14269 11.60446,11.00004 9.4618979,8.8512745 7.319336,6.702509 8.0165953,6.0127808 8.7138546,5.3230527 10.855672,7.4649915 12.99749,9.6069303 15.146233,7.4583074 17.294976,5.3096846 17.991637,6.0059739 18.688298,6.7022632 16.53955,8.8511315 14.390801,11 l 2.148749,2.148869 2.148748,2.148868 -0.696661,0.696289 -0.696661,0.69629 -2.148723,-2.148603 -2.148722,-2.148603 -2.142135,2.14194 -2.1421344,2.14194 z"
+     id="path39273" />
 </svg>

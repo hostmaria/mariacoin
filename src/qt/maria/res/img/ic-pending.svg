@@ -1,16 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20">
-    <defs>
-        <style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="30"
+   height="30"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg1151"
+   sodipodi:docname="ic-pending.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1153"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="27.133333"
+     inkscape:cx="15"
+     inkscape:cy="15"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1151" />
+  <defs
+     id="defs1143">
+    <style
+       type="text/css"
+       id="style1141">
             .cls-1{opacity:.7}.cls-2{fill:#7c7687}.cls-3{fill:none}
         </style>
-    </defs>
-    <g id="ic_pending" class="cls-1">
-        <g id="Group_8850" data-name="Group 8850">
-            <path id="Path_18903" d="M10 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8zm0-14a6 6 0 1 0 6 6 6.006 6.006 0 0 0-6-6z" class="cls-2" data-name="Path 18903"/>
-        </g>
-        <g id="Group_8851" data-name="Group 8851">
-            <path id="Path_18904" d="M14 12H9V6h2v4h3z" class="cls-2" data-name="Path 18904"/>
-        </g>
-        <path id="Rectangle_4429" d="M0 0h20v20H0z" class="cls-3" data-name="Rectangle 4429"/>
+  </defs>
+  <g
+     id="ic_pending"
+     class="cls-1">
+    <g
+       id="Group_8850"
+       data-name="Group 8850">
+      <path
+         id="Path_18903"
+         d="M10 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8zm0-14a6 6 0 1 0 6 6 6.006 6.006 0 0 0-6-6z"
+         class="cls-2"
+         data-name="Path 18903" />
     </g>
+    <g
+       id="Group_8851"
+       data-name="Group 8851">
+      <path
+         id="Path_18904"
+         d="M14 12H9V6h2v4h3z"
+         class="cls-2"
+         data-name="Path 18904" />
+    </g>
+    <path
+       id="Rectangle_4429"
+       d="M0 0h20v20H0z"
+       class="cls-3"
+       data-name="Rectangle 4429" />
+  </g>
+  <path
+     style="fill:#d3bc5f;stroke:#d3bc5f;stroke-width:0.036855"
+     d="M 13.525799,13.488943 V 9.0110565 H 15 16.474201 v 3.0036855 3.003686 h 2.248158 2.248157 v 1.474201 1.474201 h -3.722359 -3.722358 z"
+     id="path1155"
+     transform="scale(0.66666667)" />
+  <path
+     style="fill:#d3bc5f;stroke:#d3bc5f;stroke-width:0.036855"
+     d="M 14.262899,26.957563 C 11.340207,26.770037 8.6106604,25.537169 6.5315291,23.465497 4.6720905,21.612729 3.4822211,19.195122 3.1133894,16.520434 3.0330927,15.93814 3.0034869,14.704476 3.0547901,14.078624 3.2902035,11.206797 4.5007796,8.5761479 6.5198727,6.5488061 9.494107,3.562421 13.81592,2.3561785 17.884192,3.3769601 c 4.828587,1.211554 8.336306,5.1638339 9.007814,10.1494439 0.08976,0.666392 0.09036,2.317659 0.0011,2.955487 -0.323567,2.311571 -1.189157,4.325147 -2.618731,6.091819 -0.510367,0.630712 -1.405599,1.486639 -2.106042,2.013574 -2.250721,1.693189 -5.107664,2.549787 -7.905406,2.370279 z m 2.063882,-3.037418 c 3.65615,-0.570398 6.548673,-3.208309 7.423268,-6.76984 C 23.938903,16.381252 24.00478,15.823412 24.003984,15 24.002565,13.531592 23.701459,12.254007 23.048505,10.945946 21.9106,8.6663827 19.749652,6.9145131 17.294998,6.2816072 16.420405,6.0561028 16.034026,6.010472 15,6.0105714 c -0.812969,7.74e-5 -1.006649,0.01155 -1.43511,0.085003 -2.552235,0.4375402 -4.7033901,1.8353725 -6.1071771,3.9684756 -1.4187082,2.155777 -1.8342245,4.832725 -1.1408608,7.349955 0.8259496,2.998577 3.1793464,5.380709 6.1658099,6.241097 0.50644,0.145903 0.934049,0.23335 1.480959,0.30286 0.516144,0.0656 1.83562,0.04449 2.36316,-0.03782 z"
+     id="path1157"
+     transform="scale(0.66666667)" />
 </svg>

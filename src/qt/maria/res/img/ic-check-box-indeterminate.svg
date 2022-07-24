@@ -1,14 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>ic-check-active</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-check-active" transform="translate(-1.000000, -1.000000)">
-            <g id="Group_8199" transform="translate(1.000000, 1.000000)" fill="#5C4B7D">
-                <path d="M19.556,0 L2.444,0 C1.09603898,0.0043907874 0.0043907874,1.09603898 4.4408921e-16,2.444 L4.4408921e-16,19.556 C0.0043907874,20.903961 1.09603898,21.9956092 2.444,22 L19.556,22 C20.903961,21.9956092 21.9956092,20.903961 22,19.556 L22,2.444 C21.9956092,1.09603898 20.903961,0.0043907874 19.556,0 Z M3,10 L19,10 L19,13 L3,13 L3,10 Z" id="check_on_light"></path>
-            </g>
-            <polygon id="Rectangle_4538" points="0 0 24 0 24 24 0 24"></polygon>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22px"
+   height="22px"
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg29941"
+   sodipodi:docname="ic-check-box-indeterminate.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs29945" />
+  <sodipodi:namedview
+     id="namedview29943"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="38.045455"
+     inkscape:cx="10.986858"
+     inkscape:cy="11.013142"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg29941" />
+  <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+  <title
+     id="title29932">ic-check-active</title>
+  <desc
+     id="desc29934">Created with Sketch.</desc>
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="ic-check-active"
+       transform="translate(-1.000000, -1.000000)">
+      <g
+         id="Group_8199"
+         transform="translate(1.000000, 1.000000)"
+         fill="#5C4B7D">
+        <path
+           d="M19.556,0 L2.444,0 C1.09603898,0.0043907874 0.0043907874,1.09603898 4.4408921e-16,2.444 L4.4408921e-16,19.556 C0.0043907874,20.903961 1.09603898,21.9956092 2.444,22 L19.556,22 C20.903961,21.9956092 21.9956092,20.903961 22,19.556 L22,2.444 C21.9956092,1.09603898 20.903961,0.0043907874 19.556,0 Z M3,10 L19,10 L19,13 L3,13 L3,10 Z"
+           id="check_on_light" />
+      </g>
+      <polygon
+         id="Rectangle_4538"
+         points="0 0 24 0 24 24 0 24" />
     </g>
+  </g>
+  <path
+     style="fill:#a0892c;stroke:#a0892c;stroke-width:0.0262843"
+     d="M 2.0328729,21.948105 C 1.5054861,21.852029 1.0687133,21.612259 0.68037839,21.205643 0.36753991,20.878078 0.16231495,20.487379 0.05847191,20.021685 0.01604918,19.831436 0.01314217,19.252873 0.01314217,11 c 0,-8.2528729 0.002907,-8.8314358 0.04532974,-9.0216847 C 0.16231495,1.5126209 0.36753991,1.1219226 0.68037839,0.794357 1.0193389,0.4394397 1.4078443,0.20722376 1.8661888,0.08557919 L 2.0896057,0.02628435 H 11 c 8.418829,0 8.920332,0.0025515 9.090532,0.04624984 0.4488,0.11522784 0.790805,0.30377986 1.125191,0.62033281 0.361353,0.3420819 0.562398,0.6818069 0.701957,1.1861622 l 0.06918,0.2500031 v 8.8578257 8.857825 l -0.05825,0.228326 c -0.121279,0.475367 -0.301647,0.810828 -0.608985,1.132634 -0.11008,0.115263 -0.271962,0.260841 -0.359735,0.323505 -0.208967,0.149189 -0.550574,0.311039 -0.812933,0.385161 l -0.210274,0.05941 -8.857826,0.0043 c -7.1831164,0.0035 -8.893399,-0.0021 -9.0459801,-0.02994 z M 19.003584,11.499403 V 9.9749104 H 11 2.9964158 v 1.5244926 1.524492 H 11 19.003584 Z"
+     id="path29947" />
 </svg>

@@ -1,14 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>ComboBox</title>
-    <desc>Created with Sketch.</desc>
-    <g id="ComboBox" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-arrow-drop-down" transform="translate(0.000000, 8.000000)">
-            <g id="Group_8822" transform="translate(4.319000, 7.767000)" fill="#B088FF">
-                <polygon id="Path_18879" points="7.681 8.598 0 1.466 1.362 0 7.681 5.868 14 -8.8817842e-16 15.361 1.466"></polygon>
-            </g>
-            <polygon id="Rectangle_4407" points="0 0 24 0 24 24 0 24"></polygon>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40px"
+   height="40px"
+   viewBox="0 0 40 40"
+   version="1.1"
+   id="svg29060"
+   sodipodi:docname="ic-arrow-purple-down.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs29064" />
+  <sodipodi:namedview
+     id="namedview29062"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="20.925"
+     inkscape:cx="20.023895"
+     inkscape:cy="20.023895"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg29060" />
+  <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title29051">ComboBox</title>
+  <desc
+     id="desc29053">Created with Sketch.</desc>
+  <g
+     id="ComboBox"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="ic-arrow-drop-down"
+       transform="translate(0.000000, 8.000000)">
+      <g
+         id="Group_8822"
+         transform="translate(4.319000, 7.767000)"
+         fill="#B088FF">
+        <polygon
+           id="Path_18879"
+           points="7.681 8.598 0 1.466 1.362 0 7.681 5.868 14 -8.8817842e-16 15.361 1.466" />
+      </g>
+      <polygon
+         id="Rectangle_4407"
+         points="0 0 24 0 24 24 0 24" />
     </g>
+  </g>
+  <path
+     style="fill:#a0892c;stroke:#a0892c;stroke-width:0.0477897"
+     d="M 8.1832752,20.785105 C 6.1006339,18.851322 4.3966547,17.250169 4.3966547,17.226988 c 0,-0.05531 1.2399192,-1.384694 1.2915077,-1.384694 0.021822,0 1.4519179,1.311496 3.1779911,2.914436 l 3.1383145,2.914435 0.704201,-0.656371 c 3.405319,-3.174028 5.589986,-5.181621 5.622311,-5.166605 0.02131,0.0099 0.326002,0.323482 0.677085,0.69685 l 0.638334,0.67885 -0.348886,0.329112 c -1.272424,1.200305 -7.270945,6.748074 -7.29635,6.748074 -0.0172,0 -1.735247,-1.582186 -3.8178878,-3.51597 z"
+     id="path29066" />
 </svg>

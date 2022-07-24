@@ -1,13 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <defs>
-        <style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg29774"
+   sodipodi:docname="ic-check-box-dark-active.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview29776"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="34.875"
+     inkscape:cx="11.985663"
+     inkscape:cy="12.014337"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg29774" />
+  <defs
+     id="defs29768">
+    <style
+       type="text/css"
+       id="style29766">
             .cls-1{fill:#B088FF;fill-rule:evenodd}.cls-2{fill:none}
         </style>
-    </defs>
-    <g id="check_active" transform="translate(-290 -244)">
-        <g id="Group_8199" data-name="Group 8199" transform="translate(291 245)">
-            <path id="check_on_light" d="M22.556 3H5.444A2.452 2.452 0 0 0 3 5.444v17.112A2.452 2.452 0 0 0 5.444 25h17.112A2.452 2.452 0 0 0 25 22.556V5.444A2.452 2.452 0 0 0 22.556 3zm-11 17.111l-6.112-5.876 1.712-1.645 4.4 4.231 9.289-8.932 1.711 1.645-11 10.577z" class="cls-1" transform="translate(-3 -3)"/>
-        </g>
-        <path id="Rectangle_4538" d="M0 0h24v24H0z" class="cls-2" data-name="Rectangle 4538" transform="translate(290 244)"/>
+  </defs>
+  <g
+     id="check_active"
+     transform="translate(-290 -244)">
+    <g
+       id="Group_8199"
+       data-name="Group 8199"
+       transform="translate(291 245)">
+      <path
+         id="check_on_light"
+         d="M22.556 3H5.444A2.452 2.452 0 0 0 3 5.444v17.112A2.452 2.452 0 0 0 5.444 25h17.112A2.452 2.452 0 0 0 25 22.556V5.444A2.452 2.452 0 0 0 22.556 3zm-11 17.111l-6.112-5.876 1.712-1.645 4.4 4.231 9.289-8.932 1.711 1.645-11 10.577z"
+         class="cls-1"
+         transform="translate(-3 -3)" />
     </g>
+    <path
+       id="Rectangle_4538"
+       d="M0 0h24v24H0z"
+       class="cls-2"
+       data-name="Rectangle 4538"
+       transform="translate(290 244)" />
+  </g>
+  <path
+     style="fill:#a0892c;stroke:#a0892c;stroke-width:0.0286738"
+     d="M 2.9820789,22.939027 C 2.0598025,22.752653 1.3319973,22.054951 1.0827712,21.11828 l -0.06485,-0.243728 V 12 3.125448 l 0.06485,-0.2437276 C 1.2101253,2.4030828 1.4362424,2.0190577 1.7866555,1.6862816 2.1384586,1.3521855 2.5734136,1.1327728 3.0518612,1.0480496 c 0.2380502,-0.042154 17.6582278,-0.042154 17.8962778,0 0.478447,0.084723 0.913403,0.3041359 1.265206,0.638232 0.350413,0.3327761 0.57653,0.7168012 0.703884,1.1954388 l 0.06485,0.2437276 V 12 20.874552 l -0.06485,0.243728 c -0.255654,0.960828 -1.010715,1.663962 -1.96909,1.83367 C 20.672968,23.00068 3.2250506,22.98813 2.9820789,22.93903 Z M 15.079113,12.823106 c 3.014015,-2.8985469 5.48001,-5.279192 5.479988,-5.2903229 -5.7e-5,-0.028382 -1.664383,-1.6241632 -1.70426,-1.634068 -0.01793,-0.00445 -2.113702,1.993083 -4.657282,4.4389669 -2.543581,2.445884 -4.6358509,4.443075 -4.6494899,4.438202 -0.013639,-0.0049 -1.00743,-0.953563 -2.2084244,-2.108202 L 5.1560189,10.568339 4.2986225,11.391696 c -0.4715679,0.452847 -0.8574786,0.831866 -0.8575793,0.842265 -3.661e-4,0.03783 6.0934778,5.874873 6.1252906,5.867164 0.018014,-0.0044 2.4987642,-2.379473 5.5127792,-5.278019 z"
+     id="path29778" />
 </svg>

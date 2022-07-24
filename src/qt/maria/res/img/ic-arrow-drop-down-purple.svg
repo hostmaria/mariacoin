@@ -1,14 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>ic-arrow-down</title>
-    <desc>Created with Sketch.</desc>
-    <g id="ic-arrow-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-arrow-drop-down">
-            <g id="Group_8822" transform="translate(4.000000, 7.000000)" fill="#5C4B7D">
-                <polygon id="Path_18879" points="8 9.365 0.319 2.233 1.681 0.767 8 6.635 14.319 0.767 15.68 2.233"></polygon>
-            </g>
-            <polygon id="Rectangle_4407" points="0 0 24 0 24 24 0 24"></polygon>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24px"
+   height="24px"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg28589"
+   sodipodi:docname="ic-arrow-drop-down-purple.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs28593" />
+  <sodipodi:namedview
+     id="namedview28591"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="34.875"
+     inkscape:cx="11.985663"
+     inkscape:cy="12.014337"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28589" />
+  <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title28580">ic-arrow-down</title>
+  <desc
+     id="desc28582">Created with Sketch.</desc>
+  <g
+     id="ic-arrow-down"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="ic-arrow-drop-down">
+      <g
+         id="Group_8822"
+         transform="translate(4.000000, 7.000000)"
+         fill="#5C4B7D">
+        <polygon
+           id="Path_18879"
+           points="8 9.365 0.319 2.233 1.681 0.767 8 6.635 14.319 0.767 15.68 2.233" />
+      </g>
+      <polygon
+         id="Rectangle_4407"
+         points="0 0 24 0 24 24 0 24" />
     </g>
+  </g>
+  <path
+     style="fill:#a0892c;stroke:#a0892c;stroke-width:0.0286738"
+     d="M 8.1736619,12.78799 C 6.0752805,10.839261 4.3584229,9.2382584 4.3584229,9.2302061 c 0,-0.036084 1.3068205,-1.4173862 1.3342117,-1.4102548 0.016912,0.0044 1.4338491,1.3112315 3.1487495,2.9040627 1.7148999,1.592832 3.1362769,2.896058 3.1586159,2.896058 0.02234,0 1.443716,-1.303226 3.158616,-2.896058 1.7149,-1.5928312 3.131838,-2.8996596 3.148749,-2.9040627 0.02737,-0.00713 1.334212,1.3741543 1.334212,1.4102051 0,0.016355 -7.566626,7.0477946 -7.619176,7.0802726 -0.02079,0.01285 -1.481196,-1.323745 -3.8487391,-3.522439 z"
+     id="path28595" />
 </svg>

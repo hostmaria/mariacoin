@@ -1,10 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Top BarTheme Copy</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Top-BarTheme-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="12" cy="12" r="12"></circle>
-        <path d="M12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 C16.9705627,21 21,16.9705627 21,12 C21,9.61305159 20.0517884,7.32386638 18.363961,5.63603897 C16.6761336,3.94821156 14.3869484,3 12,3 Z" id="Path_18926" stroke="#55476C" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero"></path>
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24px"
+   height="24px"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg524"
+   sodipodi:docname="bg-multi-number.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs528" />
+  <sodipodi:namedview
+     id="namedview526"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="33.916667"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg524" />
+  <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title517">Top BarTheme Copy</title>
+  <desc
+     id="desc519">Created with Sketch.</desc>
+  <g
+     id="Top-BarTheme-Copy"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <circle
+       id="Oval"
+       fill="#FFFFFF"
+       fill-rule="nonzero"
+       cx="12"
+       cy="12"
+       r="12" />
+    <path
+       d="M12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 C16.9705627,21 21,16.9705627 21,12 C21,9.61305159 20.0517884,7.32386638 18.363961,5.63603897 C16.6761336,3.94821156 14.3869484,3 12,3 Z"
+       id="Path_18926"
+       stroke="#55476C"
+       stroke-width="1.5"
+       fill="#FFFFFF"
+       fill-rule="nonzero" />
+  </g>
+  <path
+     style="fill:#a0892c;stroke:#a0892c;stroke-width:0.029484"
+     d="M 11.528256,21.726883 C 10.546344,21.660607 9.6684212,21.490607 8.8452088,21.207343 6.1610017,20.283715 4.0046212,18.226402 2.9493087,15.58231 2.3110002,13.983024 2.1145782,12.182745 2.3899741,10.455805 2.7848703,7.9795061 4.1348627,5.7435108 6.1496692,4.2286135 7.5840997,3.1500905 9.1915592,2.5180884 11.027027,2.310991 c 0.410968,-0.04637 1.521863,-0.046018 1.945946,6.173e-4 1.813773,0.1994539 3.438748,0.8386364 4.879607,1.9193888 2.088246,1.5663415 3.448404,3.9017891 3.803448,6.5306739 0.0671,0.496853 0.08968,1.467377 0.04655,2.00116 -0.226122,2.798737 -1.614362,5.324335 -3.852251,7.008322 -1.424423,1.071862 -3.070467,1.721039 -4.847874,1.911934 -0.312745,0.03359 -1.224236,0.06067 -1.474201,0.0438 z m 1.061425,-1.486727 c 1.88627,-0.142034 3.626509,-0.889406 4.986102,-2.141356 1.736396,-1.59892 2.679868,-3.746122 2.67971,-6.098619 -9e-5,-1.329276 -0.27585,-2.4988475 -0.872482,-3.7004267 C 17.649862,4.809304 13.679016,3.0162491 9.8843926,4.0106074 6.9273535,4.7854817 4.6244799,7.1708825 3.9361738,10.17199 3.818288,10.685988 3.7693117,11.120921 3.7535687,11.793612 c -0.017022,0.727322 0.021711,1.229473 0.1410006,1.82801 0.8117922,4.073173 4.5643908,6.929572 8.6951117,6.618534 z"
+     id="path599" />
 </svg>

@@ -1,9 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="ic_unlocked" width="24" height="24" viewBox="0 0 24 24" shape-rendering="geometricPrecision">
-    <defs>
-        <style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="ic_unlocked"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   shape-rendering="geometricPrecision"
+   version="1.1"
+   sodipodi:docname="ic-check-locked-off.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview35430"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="34.875"
+     inkscape:cx="11.985663"
+     inkscape:cy="12.014337"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="ic_unlocked" />
+  <defs
+     id="defs35425">
+    <style
+       type="text/css"
+       id="style35423">
             .cls-1{fill:#7c7687}.cls-2{fill:none}
         </style>
-    </defs>
-    <path id="Path_18909" d="M8 10V8a4 4 0 0 1 6.827-2.83l1.412-1.416A6 6 0 0 0 6 8v2H4v12h16V10zm10 10H6v-8h12z" class="cls-1" data-name="Path 18909"/>
-    <path id="Rectangle_4444" d="M0 0h24v24H0z" class="cls-2" data-name="Rectangle 4444"/>
+  </defs>
+  <path
+     id="Path_18909"
+     d="M8 10V8a4 4 0 0 1 6.827-2.83l1.412-1.416A6 6 0 0 0 6 8v2H4v12h16V10zm10 10H6v-8h12z"
+     class="cls-1"
+     data-name="Path 18909" />
+  <path
+     id="Rectangle_4444"
+     d="M0 0h24v24H0z"
+     class="cls-2"
+     data-name="Rectangle 4444" />
+  <path
+     style="fill:#a0892c;stroke:#a0892c;stroke-width:0.0286738"
+     d="M 4.0143369,16 V 10.021505 H 5.0179211 6.0215054 V 8.8043361 c 0,-0.9295869 0.010421,-1.2971206 0.044106,-1.5555556 C 6.3299588,5.2206778 7.591085,3.4777763 9.4272711,2.6028995 10.845152,1.9273301 12.442963,1.8348301 13.935484,2.3419114 14.69959,2.601515 15.440109,3.0426208 16.054683,3.6042572 l 0.155041,0.1416863 -0.217225,0.2202182 c -0.119474,0.12112 -0.427952,0.4374148 -0.685507,0.7028773 L 14.83871,5.1516981 14.637993,4.9768625 C 14.084331,4.4945921 13.395703,4.1678174 12.675951,4.0458151 12.332825,3.9876532 11.683737,3.9864173 11.333262,4.0432587 9.8692155,4.2807036 8.6255461,5.359844 8.1776998,6.781362 8.0153657,7.2966291 8,7.471867 8,8.8079203 v 1.2135847 h 5.992832 5.992831 V 16 21.978495 H 12 4.0143369 Z M 18.007168,16 V 12 H 12 5.9928315 v 4 4 H 12 18.007168 Z"
+     id="path35432" />
 </svg>

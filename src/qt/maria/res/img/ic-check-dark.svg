@@ -1,9 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="ic_check" width="16" height="16" viewBox="0 0 16 16" shape-rendering="geometricPrecision">
-    <defs>
-        <style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="ic_check"
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   shape-rendering="geometricPrecision"
+   version="1.1"
+   sodipodi:docname="ic-check-dark.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview31255"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="52.3125"
+     inkscape:cx="8.0095579"
+     inkscape:cy="8.0095579"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="ic_check" />
+  <defs
+     id="defs31250">
+    <style
+       type="text/css"
+       id="style31248">
             .cls-1{fill:none}.cls-2{fill:#5c4b7d}
         </style>
-    </defs>
-    <path id="Rectangle_3779" d="M0 0h16v16H0z" class="cls-1" data-name="Rectangle 3779"/>
-    <path id="Path_18587" d="M13.92 4.125a.655.655 0 0 0-.835 0L5.723 10.8 2.914 8.2a.655.655 0 0 0-.835 0l-.379.33 3.643 3.337a.624.624 0 0 0 .38.133.624.624 0 0 0 .38-.133l8.2-7.341z" class="cls-2" data-name="Path 18587"/>
+  </defs>
+  <path
+     id="Rectangle_3779"
+     d="M0 0h16v16H0z"
+     class="cls-1"
+     data-name="Rectangle 3779" />
+  <path
+     id="Path_18587"
+     d="M13.92 4.125a.655.655 0 0 0-.835 0L5.723 10.8 2.914 8.2a.655.655 0 0 0-.835 0l-.379.33 3.643 3.337a.624.624 0 0 0 .38.133.624.624 0 0 0 .38-.133l8.2-7.341z"
+     class="cls-2"
+     data-name="Path 18587" />
+  <path
+     style="fill:#a0892c;stroke:#a0892c;stroke-width:0.0191159"
+     d="M 5.59588,11.975458 C 5.55629,11.965561 5.4909255,11.940642 5.4506254,11.920082 5.3561657,11.871893 1.7125598,8.5350794 1.7333883,8.5158377 1.9305912,8.33366 2.1526657,8.1569034 2.2286433,8.1216472 c 0.1994514,-0.092552 0.4375726,-0.075058 0.6136419,0.045084 0.042802,0.029206 0.7076349,0.636492 1.477407,1.3495247 1.3879316,1.2856281 1.3999205,1.2961331 1.439768,1.2616491 0.0221,-0.01913 1.6494589,-1.4928392 3.6163527,-3.274918 1.9668941,-1.7820789 3.6208551,-3.2799348 3.6754711,-3.3285688 0.156958,-0.1397689 0.252471,-0.17817 0.444534,-0.1787264 0.234048,-6.78e-4 0.318549,0.044053 0.573477,0.3035743 0.110394,0.1123833 0.200717,0.2125281 0.200717,0.2225441 0,0.010016 -1.845161,1.6707951 -4.100358,3.6906204 -2.9973302,2.6845024 -4.1261162,3.6844944 -4.1961085,3.7173334 -0.1105573,0.05187 -0.2739024,0.07163 -0.3776655,0.04569 z"
+     id="path31257" />
 </svg>

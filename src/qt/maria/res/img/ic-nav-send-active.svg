@@ -1,17 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="40px" viewBox="0 0 24 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Send</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Send" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-send" transform="translate(-1.000000, 11.000000)">
-            <g id="Group_8811" transform="translate(1.000000, 1.000000)" fill="#B088FF">
-                <polygon id="Path_18865" points="0.352 9.1 7.562 13.606 9.014 12.154 4.914 9.59 19.714 4.283 14.407 19.083 11.842 14.983 10.391 16.434 14.9 23.648 23.025 0.975"></polygon>
-                <g id="Group_8810" transform="translate(8.000000, 8.000000)">
-                    <polygon id="Rectangle_4394" transform="translate(3.823718, 4.176339) rotate(-45.000000) translate(-3.823718, -4.176339) " points="-0.176282346 3.17633883 7.82371765 3.17633883 7.82371765 5.17633883 -0.176282346 5.17633883"></polygon>
-                </g>
-            </g>
-            <polygon id="Rectangle_4395" points="0 0 26 0 26 26 0 26"></polygon>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24px"
+   height="40px"
+   viewBox="0 0 24 40"
+   version="1.1"
+   id="svg44764"
+   sodipodi:docname="ic-nav-send-active.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs44768" />
+  <sodipodi:namedview
+     id="namedview44766"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="20.925"
+     inkscape:cx="11.995221"
+     inkscape:cy="20.023895"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg44764" />
+  <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title44753">Send</title>
+  <desc
+     id="desc44755">Created with Sketch.</desc>
+  <g
+     id="Send"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="ic-send"
+       transform="translate(-1.000000, 11.000000)">
+      <g
+         id="Group_8811"
+         transform="translate(1.000000, 1.000000)"
+         fill="#B088FF">
+        <polygon
+           id="Path_18865"
+           points="0.352 9.1 7.562 13.606 9.014 12.154 4.914 9.59 19.714 4.283 14.407 19.083 11.842 14.983 10.391 16.434 14.9 23.648 23.025 0.975" />
+        <g
+           id="Group_8810"
+           transform="translate(8.000000, 8.000000)">
+          <polygon
+             id="Rectangle_4394"
+             transform="translate(3.823718, 4.176339) rotate(-45.000000) translate(-3.823718, -4.176339) "
+             points="-0.176282346 3.17633883 7.82371765 3.17633883 7.82371765 5.17633883 -0.176282346 5.17633883" />
         </g>
+      </g>
+      <polygon
+         id="Rectangle_4395"
+         points="0 0 26 0 26 26 0 26" />
     </g>
+  </g>
+  <path
+     style="fill:#a0892c;stroke:#a0892c;stroke-width:0.0477897"
+     d="m 12.759857,32.178764 c -1.169654,-1.870957 -2.173885,-3.480133 -2.231625,-3.575947 l -0.104983,-0.174206 0.706366,-0.705189 0.706366,-0.705188 1.263988,2.022544 c 0.695194,1.112399 1.284787,2.012128 1.310206,1.999397 0.04989,-0.02499 5.335092,-14.727804 5.304997,-14.757898 -0.03152,-0.03152 -14.7550338,5.26878 -14.7621498,5.314213 -0.00501,0.03198 2.4429983,1.594748 3.9358667,2.512591 0.056926,0.035 -0.07098,0.187413 -0.6212664,0.740304 -0.3811231,0.382928 -0.7162705,0.690403 -0.7447723,0.68328 -0.095218,-0.0238 -7.08488443,-4.40928 -7.06286588,-4.431409 0.0283036,-0.02845 22.49464768,-8.079447 22.50649168,-8.065388 0.009,0.01072 -7.973201,22.301447 -8.043026,22.460477 -0.02809,0.06397 -0.546998,-0.731705 -2.163593,-3.317581 z"
+     id="path44770" />
+  <path
+     style="fill:#a0892c;stroke:#a0892c;stroke-width:0.0477897"
+     d="M 8.9960205,26.964978 8.3158578,26.2836 l 2.8078082,-2.807506 2.807808,-2.807506 0.69218,0.693418 0.692181,0.693418 -2.79516,2.795466 c -1.537338,1.537506 -2.8062594,2.795466 -2.8198258,2.795466 -0.013566,0 -0.3307393,-0.30662 -0.7048287,-0.681378 z"
+     id="path44772" />
 </svg>
